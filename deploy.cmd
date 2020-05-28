@@ -88,6 +88,9 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
   IF !ERRORLEVEL! NEQ 0 goto error
 )
 
+xcopy %DEPLOYMENT_SOURCE%\delivery.src\UmbracoLeeds\_templates %DEPLOYMENT_TARGET%\_templates\ /Y /S
+xcopy %DEPLOYMENT_SOURCE%\delivery.src\UmbracoLeeds\_client %DEPLOYMENT_TARGET%\_client\ /Y /S
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 goto end
 
