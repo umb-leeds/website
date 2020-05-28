@@ -1,0 +1,19 @@
+{
+    "refs": {
+        "/breadcrumb": [
+            "/parBreadcrumb"
+        ],
+        "/header": [
+            "/parBlogHeader"
+        ],
+        "/content": [
+            "/dataRows^parBlogGrid"
+        ],
+        "/footer": [
+            "/parBlogFooter"
+        ],
+        "/cta": [
+            "/parCtaForm"
+        ]
+    }
+}

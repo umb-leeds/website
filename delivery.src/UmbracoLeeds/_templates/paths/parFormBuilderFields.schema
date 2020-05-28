@@ -1,0 +1,11 @@
+{
+    "refs": {
+        "": [
+            "/parFormCheckboxRadio",
+            "/parFormCheckboxRadioList",
+            "/parFormTextArea",
+            "/parFormTextInput",
+            "/parFormSelect"
+        ]
+    }
+}

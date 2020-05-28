@@ -1,0 +1,13 @@
+{
+    "refs": {
+        "/categories": [
+            "/dataLink"
+        ],
+        "/social/links": [
+            "/dataLink"
+        ],
+        "/relatedArticles/items": [
+            "/parBlogList"
+        ]
+    }
+}

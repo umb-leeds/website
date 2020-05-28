@@ -1,0 +1,17 @@
+{
+    "slides": [
+        {
+            "title": "Become more <span>involved</span>",
+            "text": "Bringing together anyone interested in Umbraco</br> from around the Leeds area",
+            "link": {
+                "title": "",
+                "href": "#",
+                "label": "Join"
+            },
+            "image": {
+                "src": "/_client/images/bg-img/1.png",
+                "alt": ""
+            }
+        }
+    ]
+}

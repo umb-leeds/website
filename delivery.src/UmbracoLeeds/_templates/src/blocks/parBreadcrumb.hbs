@@ -1,0 +1,34 @@
+{{#if crumbs.[0]}}
+    <div class="breadcrumb-area">
+        <div class="container h-100">
+            <div class="row h-100 align-items-end">
+                <div class="col-12">
+                    <div class="breadcumb--con">
+                        {{#if title}}
+                            <h2 class="title">{{title}}</h2>
+                        {{/if}}
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                {{#each crumbs}}
+                                    <li class="breadcrumb-item{{#if @last}} active{{/if}}"{{#if @last}} aria-current="page"{{/if}}>
+                                        {{#if href}}
+                                            <a href="{{href}}" title="{{title}}">
+                                                {{#if @first}}<i class="fa fa-home"></i>{{/if}} 
+                                                {{label}}
+                                            </a>
+                                        {{else}}
+                                            {{label}}
+                                        {{/if}}
+                                    </li>
+                                {{/each}}
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumb-bg-curve">
+            <img src="/_client/images/core-img/curve-5.png" alt="">
+        </div>
+    </div>
+{{/if}}

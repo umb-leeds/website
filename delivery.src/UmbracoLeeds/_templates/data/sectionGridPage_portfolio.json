@@ -1,0 +1,271 @@
+{
+    "content": {
+        "rows": [
+            {
+                "config": {},
+                "items": [
+                    {
+                        "title": "Portfolios",
+                        "crumbs": [
+                            {
+                                "title": "",
+                                "href": "#",
+                                "label": "Home"
+                            },
+                            {
+                                "title": "",
+                                "href": "",
+                                "label": "Portfolios"
+                            }
+                        ],
+                        "_ref": "/parBreadcrumb"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "mode": "grid",
+                        "filters": [
+                            {
+                                "target": "ux-ui-design",
+                                "text": "UX/UI Design"
+                            },
+                            {
+                                "target": "market-analytics",
+                                "text": "Market Analytics"
+                            },
+                            {
+                                "target": "marketing-social",
+                                "text": "Marketing Social"
+                            }
+                        ],
+                        "items": [
+                            {
+                                "subTitle": "",
+                                "title": "Digital Marketing",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/3.jpg",
+                                    "alt": ""
+                                },
+                                "tagTargets": [
+                                    "ux-ui-design"
+                                ],
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": ""
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Market Analysis",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/12.jpg",
+                                    "alt": ""
+                                },
+                                "tagTargets": [
+                                    "market-analytics"
+                                ],
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": ""
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Bespoke Development",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/4.jpg",
+                                    "alt": ""
+                                },
+                                "tagTargets": [
+                                    "ux-ui-design"
+                                ],
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": ""
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Print Design",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/11.jpg",
+                                    "alt": ""
+                                },
+                                "tagTargets": [
+                                    "ux-ui-design",
+                                    "market-analytics"
+                                ],
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": ""
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Animation",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/5.jpg",
+                                    "alt": ""
+                                },
+                                "tagTargets": [
+                                    "marketing-social"
+                                ],
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": ""
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Search",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/10.jpg",
+                                    "alt": ""
+                                },
+                                "tagTargets": [
+                                    "ux-ui-design"
+                                ],
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": ""
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "PPC",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/6.jpg",
+                                    "alt": ""
+                                },
+                                "tagTargets": [
+                                    "marketing-social"
+                                ],
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": ""
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "CMS",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/9.jpg",
+                                    "alt": ""
+                                },
+                                "tagTargets": [
+                                    "ux-ui-design"
+                                ],
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": ""
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Umbraco",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/4.jpg",
+                                    "alt": ""
+                                },
+                                "tagTargets": [
+                                    "ux-ui-design",
+                                    "marketing-social"
+                                ],
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": ""
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Branding",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/12.jpg",
+                                    "alt": ""
+                                },
+                                "tagTargets": [
+                                    "market-analytics",
+                                    "marketing-social"
+                                ],
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": ""
+                                }
+                            }
+                        ],
+                        "_ref": "/parPortfolioArea",
+                        "yuzu-path": "/content/rows[1]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "item": {
+                            "title": "Subscribe to our Newsletter",
+                            "text": "Subscribe our newsletter gor get notification about new updates, etc...",
+                            "form": {
+                                "testForm": {
+                                    "fieldsets": [
+                                        {
+                                            "fields": [
+                                                {
+                                                    "name": "email",
+                                                    "label": "Your Email",
+                                                    "value": "",
+                                                    "type": "email",
+                                                    "id": "",
+                                                    "placeholder": "Your Email",
+                                                    "pattern": "",
+                                                    "autocomplete": "",
+                                                    "min": "",
+                                                    "max": "",
+                                                    "minlength": "",
+                                                    "maxlength": "",
+                                                    "isRequired": true,
+                                                    "isDisabled": false,
+                                                    "isReadonly": false,
+                                                    "_ref": "/parFormTextInput"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "submitButtonText": "Subscribe",
+                                    "_ref": "/parFormCta"
+                                }
+                            },
+                            "_ref": "/parCtaForm",
+                            "yuzu-path": "/content/rows[2]/items[0]/item"
+                        },
+                        "_ref": "/parCtaGridItem",
+                        "yuzu-path": "/content/rows[2]/items[0]"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "parRowBuilder": {
+        "refs": {
+            "/rows/config": [
+                "/parRowBuilderConfig"
+            ],
+            "/rows/items": [
+                "/parAboutUs",
+                "/parBlogArea",
+                "/parBreadcrumb",
+                "/parContact",
+                "/parContentRte",
+                "/parCtaGridItem",
+                "/parPortfolio",
+                "/parSectionHeading",
+                "/parServices",
+                "/parStatistics",
+                "/parPortfolioArea",
+                "/parTeamArea",
+                "/parTestimonials",
+                "/parWelcomeSlides",
+                "/parWhyChooseUs",
+                "/parBlogList",
+                "/parEvents"
+            ]
+        }
+    },
+    "anyOfTypes": [
+        "parRowBuilder",
+        "parBlogRowBuilder"
+    ],
+    "parBlogRowBuilder": {
+        "refs": {
+            "/rows/config": [
+                "/parBlogRowBuilderConfig"
+            ],
+            "/rows/items": [
+                "/parBlogImage",
+                "/parBlogQuote",
+                "/parBlogRte"
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "isActive": true,
+            "link": {
+                "title": "",
+                "href": "/_templates/html/pages/sectionGridPage/sectionGridPage_umbraco-leeds.html",
+                "label": "Home"
+            }
+        },
+        {
+            "isActive": false,
+            "link": {
+                "title": "",
+                "href": "https://www.meetup.com/umbLeeds/",
+                "label": "Meetup Page"
+            }
+        },
+        {
+            "isActive": false,
+            "link": {
+                "title": "",
+                "href": "/_templates/html/pages/blogDetailPage/blogDetailPage_code-of-conduct.html",
+                "label": "Code of Conduct"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "/parSiteHeader",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "logo": {
+            "$ref": "/dataImage"
+        },
+        "nav": {
+            "$ref": "/parSiteNav"
+        }
+    },
+    "additionalProperties": false
+}

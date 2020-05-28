@@ -1,0 +1,67 @@
+{
+    "content": {
+        "rows": [
+            {
+                "config": {},
+                "items": [
+                    {
+                        "title": "Services",
+                        "crumbs": [
+                            {
+                                "title": "",
+                                "href": "#",
+                                "label": "Home"
+                            },
+                            {
+                                "title": "",
+                                "href": "",
+                                "label": "Services"
+                            }
+                        ],
+                        "_ref": "/parBreadcrumb"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parServices_grid"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parCtaGridItem"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parTestimonials"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parStatistics"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parCtaGridItem_form"
+                    }
+                ]
+            }
+        ]
+    }
+}

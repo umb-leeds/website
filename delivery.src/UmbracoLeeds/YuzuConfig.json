@@ -1,0 +1,281 @@
+{
+  "models": {
+    "vmSub_AboutUsVideo": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GroupStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentPropertyName": "Video",
+        "parentPropertyType": "vmBlock_AboutUs",
+        "type": 2,
+        "groupName": "Video"
+      },
+      "documentTypeAlias": "aboutUs",
+      "properties": {
+        "Id": "410e2479-e4c3-4349-bf7e-570b4d87b46f",
+        "Image": "233ad6c5-de18-447e-bd43-93b50edb4bdf"
+      }
+    },
+    "vmBlock_SiteHeader": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GroupStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentPropertyName": "Header",
+        "parentPropertyType": "vmPage_Template",
+        "type": 2,
+        "groupName": "Header"
+      },
+      "documentTypeAlias": "template",
+      "properties": {
+        "Logo": "b477ae74-5cb6-497c-9600-f925c23032af"
+      }
+    },
+    "vmBlock_SiteFooter": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GroupStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentPropertyName": "Footer",
+        "parentPropertyType": "vmPage_Template",
+        "type": 2,
+        "groupName": "Footer"
+      },
+      "documentTypeAlias": "template",
+      "properties": {
+        "Sections": "0c21108f-8ca5-4b57-b269-dec454a486d3"
+      }
+    },
+    "vmBlock_BlogFooter": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GroupStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentPropertyName": "Footer",
+        "parentPropertyType": "vmPage_BlogDetailPage",
+        "type": 2,
+        "groupName": "Footer"
+      },
+      "documentTypeAlias": "blogDetailPage",
+      "properties": {
+        "Categories": "809991fa-4d08-4cd6-af59-bb975dd7e287"
+      }
+    },
+    "vmBlock_BlogHeader": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GroupStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentPropertyName": "Header",
+        "parentPropertyType": "vmPage_BlogDetailPage",
+        "type": 2,
+        "groupName": "Header"
+      },
+      "documentTypeAlias": "blogDetailPage",
+      "properties": {
+        "Title": "2f75bf57-bc55-4960-a23b-57a632defd8a"
+      }
+    },
+    "vmSub_BlogFooterSocial": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GroupStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentPropertyName": "Social",
+        "parentPropertyType": "vmBlock_BlogFooter",
+        "type": 2,
+        "groupName": "Social"
+      },
+      "documentTypeAlias": "blogDetailPage",
+      "properties": {
+        "Title": "7f03ba44-401b-4163-80ad-e47279339284",
+        "Links": "44a6fed7-87bb-4c57-add1-027f100f453c"
+      }
+    },
+    "vmSub_BlogFooterRelatedArticles": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GroupStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentPropertyName": "RelatedArticles",
+        "parentPropertyType": "vmBlock_BlogFooter",
+        "type": 2,
+        "groupName": "RelatedArticles"
+      },
+      "documentTypeAlias": "blogDetailPage",
+      "properties": {
+        "Title": "2cae8ecd-af29-470e-9f5d-26261a0ba9b0",
+        "Items": "993cf7cf-6c35-46ee-a2f9-7bcc5f6aeeed"
+      }
+    },
+    "vmSub_SiteFooterAboutSection": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GroupStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentPropertyName": "AboutSection",
+        "parentPropertyType": "vmBlock_SiteFooter",
+        "type": 2,
+        "groupName": "AboutSection"
+      },
+      "documentTypeAlias": "template",
+      "properties": {
+        "Title": "26a4bcd2-be9a-4bd0-9099-3d2393544b30",
+        "Text": "97a5196e-41b6-452e-97f8-689a5d33f634",
+        "CopyrightNotice": "42015341-e5bd-4eda-b110-854bca96b246",
+        "SocialLinks": "6bef4c19-7e2c-4078-8b52-05e180f0c307"
+      }
+    },
+    "vmSub_BlogListItem": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GlobalStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentContentId": "1278",
+        "addAreaNode": false,
+        "primaryPropertyName": "title",
+        "propertyPrefix": null,
+        "type": 1,
+        "groupName": "Summary"
+      },
+      "documentTypeAlias": "blogDetailPage",
+      "properties": {
+        "Title": "04cc981a-f99a-495e-a994-48260d0e7480",
+        "Summary": "42fc6fc4-3124-4bf5-af83-90401ef8da07",
+        "Image": "255c7028-9f1f-41bc-8af8-5ac3cd9192e6"
+      }
+    },
+    "vmSub_PortfolioAreaItem": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GlobalStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentContentId": "1205",
+        "addAreaNode": false,
+        "primaryPropertyName": "title",
+        "propertyPrefix": null,
+        "type": 1,
+        "groupName": "Summary"
+      },
+      "documentTypeAlias": "portfolioDetailPage",
+      "properties": {
+        "SubTitle": "8bb25c61-e405-4dd4-b6d5-862d4661705b",
+        "Title": "c28933bc-dac8-4dc6-9346-7de668ffce6d",
+        "Text": "0fadac74-4214-4a50-8af9-1e0bc6a88ecc",
+        "Image": "daf2fa5e-1f04-42c7-b115-5d273f26cbdf",
+        "TagTargets": "091140df-ba48-4107-8466-bf3a7db7f174"
+      }
+    },
+    "vmBlock_Cta": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GlobalStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentContentId": "1352",
+        "addAreaNode": false,
+        "primaryPropertyName": "title",
+        "propertyPrefix": null,
+        "type": 1,
+        "groupName": null
+      },
+      "properties": {}
+    },
+    "vmBlock_CtaForm": {
+      "storeContentAs": {
+        "$type": "YuzuDelivery.Umbraco.Import.GlobalStoreContentAs, YuzuDelivery.Umbraco.Import",
+        "parentContentId": "1352",
+        "addAreaNode": false,
+        "primaryPropertyName": "title",
+        "propertyPrefix": null,
+        "type": 1,
+        "groupName": null
+      },
+      "properties": {}
+    }
+  },
+  "ignoreViewmodels": [
+    "vmBlock_BlogRowBuilderConfig",
+    "vmBlock_DataDate"
+  ],
+  "ignoreViewmodelProperties": [
+    {
+      "Key": "vmBlock_Breadcrumb",
+      "Value": "Crumbs"
+    },
+    {
+      "Key": "vmBlock_Breadcrumb",
+      "Value": "Title"
+    },
+    {
+      "Key": "vmPage_PortfolioDetailPage",
+      "Value": "Breadcrumb"
+    },
+    {
+      "Key": "vmPage_BlogDetailPage",
+      "Value": "Breadcrumb"
+    },
+    {
+      "Key": "vmSub_BlogListItem",
+      "Value": "Link"
+    },
+    {
+      "Key": "vmSub_BlogListItem",
+      "Value": "Date"
+    },
+    {
+      "Key": "vmBlock_BlogHeader",
+      "Value": "Date"
+    },
+    {
+      "Key": "vmSub_PortfolioAreaItem",
+      "Value": "SocialLinks"
+    },
+    {
+      "Key": "vmSub_PortfolioAreaItem",
+      "Value": "Link"
+    }
+  ],
+  "manualMappers": [
+    {
+      "dest": "vmPage_BlogDetailPage",
+      "destMember": "Breadcrumb",
+      "source": "blogDetailPage",
+      "mapper": "BreadcrumbTypeFactory",
+      "group": ""
+    },
+    {
+      "dest": "vmBlock_Breadcrumb",
+      "destMember": "",
+      "source": "breadcrumb",
+      "mapper": "BreadcrumbTypeFactory",
+      "group": ""
+    },
+    {
+      "dest": "vmPage_PortfolioDetailPage",
+      "destMember": "Breadcrumb",
+      "source": "portfolioDetailPage",
+      "mapper": "BreadcrumbTypeFactory",
+      "group": ""
+    },
+    {
+      "dest": "vmBlock_Events",
+      "destMember": "Items",
+      "source": "events",
+      "mapper": "MeetupEventsResolver",
+      "group": ""
+    },
+    {
+      "dest": "vmBlock_SiteHeader",
+      "destMember": "Nav",
+      "source": "template",
+      "mapper": "PrimaryNavResolver",
+      "group": "Header"
+    },
+    {
+      "dest": "vmSub_BlogListItem",
+      "destMember": "",
+      "source": "blogDetailPage",
+      "mapper": "BlogListItemTypeConvertor",
+      "group": "Summary"
+    },
+    {
+      "dest": "vmBlock_BlogHeader",
+      "destMember": "Date",
+      "source": "blogDetailPage",
+      "mapper": "BlogHeaderDateMemberFactory",
+      "group": "Header"
+    },
+    {
+      "dest": "vmBlock_Portfolio",
+      "destMember": "Navigation",
+      "source": "portfolio",
+      "mapper": "PortfolioNavigationMemberResolver",
+      "group": ""
+    },
+    {
+      "dest": "vmSub_PortfolioAreaItem",
+      "destMember": "",
+      "source": "portfolioDetailPage",
+      "mapper": "PortfolioAreaItemTypeAfterMap",
+      "group": "Summary"
+    }
+  ]
+}

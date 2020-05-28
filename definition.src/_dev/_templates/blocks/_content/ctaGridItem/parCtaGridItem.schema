@@ -1,0 +1,19 @@
+{
+    "id": "/parCtaGridItem",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "item": {
+            "anyOf": [
+                {
+                    "$ref": "/parCtaForm"
+                },
+                {
+                    "$ref": "/parCta"
+                }
+            ]
+        }
+    },
+    "additionalProperties": false
+}

@@ -1,0 +1,13 @@
+{
+    "refs": {
+        "/cta": [
+            "/parCta"
+        ],
+        "/title": [
+            "/parSectionHeading"
+        ],
+        "/blogs": [
+            "/parBlogList"
+        ]
+    }
+}

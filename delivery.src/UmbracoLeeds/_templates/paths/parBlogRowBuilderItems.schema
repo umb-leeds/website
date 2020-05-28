@@ -1,0 +1,9 @@
+{
+    "refs": {
+        "": [
+            "/parBlogImage",
+            "/parBlogQuote",
+            "/parBlogRte"
+        ]
+    }
+}

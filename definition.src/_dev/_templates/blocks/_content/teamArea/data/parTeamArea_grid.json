@@ -1,0 +1,253 @@
+{
+    "mode": "grid",
+    "filters": [
+        {
+            "target": "HR",
+            "text": "Human Resources"
+        },
+        {
+            "target": "Designer",
+            "text": "Designers"
+        },
+        {
+            "target": "Developer",
+            "text": "Developers"
+        }
+    ],
+    "items": [
+        {
+            "subTitle": "HR",
+            "tagTargets": [
+                "HR"
+            ],
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/18.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        },
+        {
+            "subTitle": "Designer",
+            "tagTargets": [
+                "Designer"
+            ],
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/19.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        },
+        {
+            "subTitle": "Developer",
+            "tagTargets": [
+                "Developer"
+            ],
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/20.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        },
+        {
+            "subTitle": "Designer",
+            "tagTargets": [
+                "Designer"
+            ],
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/21.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        },
+        {
+            "subTitle": "Designer",
+            "tagTargets": [
+                "Designer"
+            ],
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/20.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        },
+        {
+            "subTitle": "HR",
+            "tagTargets": [
+                "HR"
+            ],
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/19.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        }
+    ]
+}

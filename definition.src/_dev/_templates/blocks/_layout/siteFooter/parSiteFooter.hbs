@@ -1,0 +1,63 @@
+<footer class="footer-area section-padding-80-0">
+    <div class="container">
+        <div class="row justify-content-between">
+            {{#each sections}}
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-80">
+                        <h4 class="widget-title">{{title}}</h4>
+                        {{#if text}}
+                            <div class="footer-content mb-15">
+                                {{{text}}}
+                            </div>
+                        {{/if}}
+                        {{#if links.[0]}}
+                            <nav>
+                                <ul class="our-link">
+                                    {{#each links}}
+                                        <li><a href="{{href}}" title="{{title}}">{{label}}</a></li>
+                                    {{/each}}
+                                </ul>
+                            </nav>
+                        {{/if}}
+                    </div>
+                </div>
+            {{/each}}
+            {{#if aboutSection}}
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-80">
+                        {{#if aboutSection.title}}
+                            <h4 class="widget-title">{{aboutSection.title}}</h4>
+                        {{/if}}
+                        {{#if aboutSection.text}}
+                            <p>{{aboutSection.text}}</p>
+                        {{/if}}
+                        {{#if aboutSection.copyrightNotice}}
+                            <div class="copywrite-text mb-30">
+                                <p>&copy; {{aboutSection.copyrightNotice}}</p>
+                            </div>
+                        {{/if}}
+                        {{#if aboutSection.socialLinks.[0]}}
+                            <div class="footer-social-info">
+                                {{#each aboutSection.socialLinks}}
+                                    <a href="{{href}}" class="{{label}}" data-toggle="tooltip" data-placement="top" title="{{title}}">
+                                        <i class="fa fa-{{label}}"></i>
+                                    </a>
+                                {{/each}}
+                            </div>
+                        {{/if}}
+                    </div>
+                </div>
+            {{/if}}
+        </div>
+        <div class="row mb-30">
+            <div class="col-12">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
+                <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,325 @@
+{
+    "content": {
+        "rows": [
+            {
+                "items": [
+                    {
+                        "slides": [
+                            {
+                                "title": "Umbraco people in Leeds",
+                                "text": "Bringing together any one interested in Umbraco in and around Leeds",
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": "Start exploring"
+                                },
+                                "image": {
+                                    "src": "/_client/images/bg-img/1.png",
+                                    "alt": ""
+                                }
+                            }
+                        ],
+                        "_ref": "/parWelcomeSlides",
+                        "yuzu-path": "/content/rows[0]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "title": "We're a Agency Team & Digital Marketing",
+                        "video": {
+                            "id": "sSakBz_eYzQ",
+                            "image": {
+                                "src": "/_client/images/bg-img/2.jpg",
+                                "alt": ""
+                            }
+                        },
+                        "tabs": [
+                            {
+                                "tabText": "",
+                                "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna. </p> \n<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>",
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": "Start exploring"
+                                }
+                            }
+                        ],
+                        "_ref": "/parAboutUs",
+                        "yuzu-path": "/content/rows[1]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "title": {
+                            "title": "Our Services",
+                            "text": ""
+                        },
+                        "items": [
+                            {
+                                "iconName": "cone_alt",
+                                "title": "Business Strategy",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+                            },
+                            {
+                                "iconName": "piechart",
+                                "title": "Market Analytics",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+                            },
+                            {
+                                "iconName": "easel",
+                                "title": "Marketing Social",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+                            }
+                        ],
+                        "_ref": "/parServices",
+                        "yuzu-path": "/content/rows[2]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "title": {
+                            "title": "Our Portfolio",
+                            "text": "We stay on top of our industry by being experts in yours."
+                        },
+                        "mode": "carousel",
+                        "items": [
+                            {
+                                "subTitle": "",
+                                "title": "Digital Marketing",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/3.jpg",
+                                    "alt": ""
+                                },
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": "f"
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Digital Marketing",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/4.jpg",
+                                    "alt": ""
+                                },
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": "f"
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Digital Marketing",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/5.jpg",
+                                    "alt": ""
+                                },
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": "f"
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Digital Marketing",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/6.jpg",
+                                    "alt": ""
+                                },
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": "f"
+                                }
+                            },
+                            {
+                                "subTitle": "",
+                                "title": "Digital Marketing",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+                                "image": {
+                                    "src": "/_client/images/bg-img/4.jpg",
+                                    "alt": ""
+                                },
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": "f"
+                                }
+                            }
+                        ],
+                        "testimonials": {
+                            "items": [
+                                {
+                                    "headshot": {
+                                        "src": "/_client/images/bg-img/24.jpg",
+                                        "alt": ""
+                                    },
+                                    "quote": "Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.",
+                                    "stars": 3.6,
+                                    "name": "Darrell Goodman",
+                                    "position": "CEO Colorlib"
+                                },
+                                {
+                                    "headshot": {
+                                        "src": "/_client/images/bg-img/7.jpg",
+                                        "alt": ""
+                                    },
+                                    "quote": "Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.",
+                                    "stars": 4.5,
+                                    "name": "Darrell Goodman",
+                                    "position": "CEO Colorlib"
+                                }
+                            ],
+                            "_ref": "/parTestimonials",
+                            "yuzu-path": "/content/rows[3]/items[0]/testimonials"
+                        },
+                        "_ref": "/parPortfolioArea",
+                        "yuzu-path": "/content/rows[3]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "cta": {
+                            "title": "Interested in working with us?",
+                            "text": "Hit the button below or give us a call!",
+                            "link": {
+                                "title": "",
+                                "href": "#",
+                                "label": "<span>Call us now:</span> (+65) 1234 5678"
+                            },
+                            "_ref": "/parCta",
+                            "yuzu-path": "/content/rows[4]/items[0]/cta"
+                        },
+                        "title": {
+                            "title": "Our latest blogs",
+                            "text": "Hit the button or give use a call!"
+                        },
+                        "blogs": {
+                            "items": [
+                                {
+                                    "date": {
+                                        "day": "23",
+                                        "monthYear": "August, 2018"
+                                    },
+                                    "title": "SEO: The Movie By Ignite Visibility",
+                                    "summary": "Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut",
+                                    "link": {
+                                        "title": "",
+                                        "href": "#",
+                                        "label": "Read More"
+                                    },
+                                    "image": {
+                                        "src": "/_client/images/bg-img/8.jpg",
+                                        "alt": ""
+                                    }
+                                },
+                                {
+                                    "date": {
+                                        "day": "13",
+                                        "monthYear": "December, 2018"
+                                    },
+                                    "title": "What Curling Irons Are The Best Ones",
+                                    "summary": "Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut",
+                                    "link": {
+                                        "label": "Read More",
+                                        "href": "#",
+                                        "title": ""
+                                    },
+                                    "image": {
+                                        "src": "/_client/images/bg-img/9.jpg",
+                                        "alt": ""
+                                    }
+                                },
+                                {
+                                    "date": {
+                                        "day": "08",
+                                        "monthYear": "July, 2018"
+                                    },
+                                    "title": "Amazon REV Workshop: Road to Seattle",
+                                    "summary": "Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut",
+                                    "link": {
+                                        "label": "Read more",
+                                        "href": "#",
+                                        "title": ""
+                                    },
+                                    "image": {
+                                        "src": "/_client/images/bg-img/10.jpg",
+                                        "alt": ""
+                                    }
+                                }
+                            ],
+                            "_ref": "/parBlogList",
+                            "yuzu-path": "/content/rows[4]/items[0]/blogs"
+                        },
+                        "_ref": "/parBlogArea",
+                        "yuzu-path": "/content/rows[4]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "item": {
+                            "title": "Subscribe to our Newsletter",
+                            "text": "Subscribe our newsletter gor get notification about new updates, etc...",
+                            "form": {
+                                "testForm": {
+                                    "fieldsets": [
+                                        {
+                                            "fields": [
+                                                {
+                                                    "name": "email",
+                                                    "label": "Your Email",
+                                                    "value": "",
+                                                    "type": "email",
+                                                    "id": "",
+                                                    "placeholder": "Your Email",
+                                                    "pattern": "",
+                                                    "autocomplete": "",
+                                                    "min": "",
+                                                    "max": "",
+                                                    "minlength": "",
+                                                    "maxlength": "",
+                                                    "isRequired": true,
+                                                    "isDisabled": false,
+                                                    "isReadonly": false,
+                                                    "_ref": "/parFormTextInput"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "submitButtonText": "Subscribe",
+                                    "_ref": "/parFormCta"
+                                }
+                            },
+                            "_ref": "/parCtaForm",
+                            "yuzu-path": "/content/rows[5]/items[0]/item"
+                        },
+                        "_ref": "/parCtaGridItem",
+                        "yuzu-path": "/content/rows[5]/items[0]"
+                    }
+                ]
+            }
+        ]
+    }
+}

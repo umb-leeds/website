@@ -1,0 +1,51 @@
+{
+    "id": "/parBlogFooter",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "categories": {
+            "type": "array",
+            "items": {
+                "$ref": "/dataLink"
+            }
+        },
+        "social": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "links": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "/dataLink"
+                    }
+                }
+            }
+        },
+        "relatedArticles": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "items": {
+                    "$ref": "/parBlogList"
+                }
+            }
+        },
+        "_ref": {
+            "type": "string"
+        },
+        "_modifiers": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

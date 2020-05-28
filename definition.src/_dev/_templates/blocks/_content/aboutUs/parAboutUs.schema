@@ -1,0 +1,40 @@
+{
+    "id": "/parAboutUs",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "video": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "image": {
+                    "$ref": "/dataImage"
+                }
+            },
+            "additionalProperties": false
+        },
+        "tabs": {
+            "type": "array",
+            "items": {
+                "properties": {
+                    "tabText": {
+                        "type": "string"
+                    },
+                    "content": {
+                        "type": "string"
+                    },
+                    "link": {
+                        "$ref": "/dataLink"
+                    }
+                }
+            }
+        }
+    },
+    "additionalProperties": false
+}

@@ -1,0 +1,122 @@
+{
+    "formIntro": "Thank you for your interest. <br>Please fill out the form below to inquire about our work in Digital.",
+    "form": {
+        "testForm": {
+            "fieldsets": [
+                {
+                    "fields": [
+                        {
+                            "name": "name",
+                            "label": "name",
+                            "value": "",
+                            "type": "text",
+                            "id": "",
+                            "placeholder": "Name",
+                            "pattern": "",
+                            "autocomplete": "",
+                            "min": "",
+                            "max": "",
+                            "minlength": "",
+                            "maxlength": "",
+                            "isRequired": true,
+                            "isDisabled": false,
+                            "isReadonly": false,
+                            "_ref": "/parFormTextInput"
+                        },
+                        {
+                            "name": "email",
+                            "label": "email",
+                            "value": "",
+                            "type": "email",
+                            "id": "",
+                            "placeholder": "Email",
+                            "pattern": "",
+                            "autocomplete": "",
+                            "min": "",
+                            "max": "",
+                            "minlength": "",
+                            "maxlength": "",
+                            "isRequired": true,
+                            "isDisabled": false,
+                            "isReadonly": false,
+                            "_ref": "/parFormTextInput"
+                        },
+                        {
+                            "name": "phone",
+                            "label": "Phone",
+                            "value": "",
+                            "type": "text",
+                            "id": "",
+                            "placeholder": "Phone",
+                            "pattern": "",
+                            "autocomplete": "",
+                            "min": "",
+                            "max": "",
+                            "minlength": "",
+                            "maxlength": "",
+                            "isRequired": true,
+                            "isDisabled": false,
+                            "isReadonly": false,
+                            "_ref": "/parFormTextInput"
+                        },
+                        {
+                            "name": "organisation",
+                            "label": "Organisation",
+                            "value": "",
+                            "type": "text",
+                            "id": "",
+                            "placeholder": "Organisation",
+                            "pattern": "",
+                            "autocomplete": "",
+                            "min": "",
+                            "max": "",
+                            "minlength": "",
+                            "maxlength": "",
+                            "isRequired": true,
+                            "isDisabled": false,
+                            "isReadonly": false,
+                            "_ref": "/parFormTextInput"
+                        },
+                        {
+                            "name": "message",
+                            "label": "Message",
+                            "value": "",
+                            "id": "",
+                            "placeholder": "Message",
+                            "isRequired": true,
+                            "isDisabled": false,
+                            "isReadonly": false,
+                            "_ref": "/parFormTextArea"
+                        }
+                    ]
+                }
+            ],
+            "submitButtonText": "Contact us",
+            "_ref": "/parFormBuilder"
+        }
+    },
+    "contactOptions": [
+        {
+            "title": "Contact Us",
+            "telephone": "(+65) 1234 5678",
+            "email": "hello.colorlib@gmail.com",
+            "address": "",
+            "openingTimes": "Mon - Fri: 9:00 - 19:00<br> Closed on Weekends"
+        },
+        {
+            "title": "London",
+            "telephone": "(+65) 2222 5678",
+            "email": "hello.colorlib@gmail.com",
+            "address": "49 Charing Cross Rd, London, UK ",
+            "openingTimes": ""
+        },
+        {
+            "title": "New York",
+            "telephone": "(+65) 6666 5678",
+            "email": "hello.colorlib@gmail.com",
+            "address": "40 Baria Sreet 13/2 NY City, US",
+            "openingTimes": ""
+        }
+    ],
+    "mapHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.340623911607!2d-0.1300109842300412!3d51.50696657963503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cfcae9b591%3A0xdeeb4f498614e14!2s49%20Charing%20Cross%20Rd%2C%20Westminster%2C%20London%20SW1A%202DX!5e0!3m2!1sen!2suk!4v1580227155110!5m2!1sen!2suk\" frameborder=\"0\" allowfullscreen=\"\"></iframe>"
+}

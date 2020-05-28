@@ -1,0 +1,17 @@
+{
+    "slides": [
+        {
+            "title": "Umbraco people in Leeds",
+            "text": "Bringing together any one interested in Umbraco in and around Leeds",
+            "link": {
+                "title": "",
+                "href": "#",
+                "label": "Start exploring"
+            },
+            "image": {
+                "src": "/_client/images/bg-img/1.png",
+                "alt": ""
+            }
+        }
+    ]
+}

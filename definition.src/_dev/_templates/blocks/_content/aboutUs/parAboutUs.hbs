@@ -1,0 +1,68 @@
+<section class="uza-about-us-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+                <div class="about-us-thumbnail mb-80">
+                    {{#if video.image.src}}
+                        <img src="{{video.image.src}}" alt="{{video.image.alt}}">
+                    {{/if}}
+                    <div class="uza-video-area hi-icon-effect-8">
+                        <a href="https://www.youtube.com/watch?v={{video.id}}" class="hi-icon video-play-btn">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {{#unless tabs.[1]}}
+                {{#with tabs.[0]}}
+                    <div class="col-12 col-md-6">
+                        <div class="about-us-content mb-80">
+                            <h2>{{../title}}</h2>
+                            {{{content}}}
+                            {{#if link.href}}
+                                <a href="{{link.href}}" title="{{link.title}}" class="btn uza-btn btn-2 mt-4">{{link.label}}</a>
+                            {{/if}}
+                        </div>
+                    </div>
+                {{/with}}
+            {{else}}
+                <div class="col-12 col-lg-6">
+                    <div class="section-heading mb-5">
+                        <h2>{{title}}</h2>
+                    </div>
+                    <div class="about-us-content mb-80">
+                        <div class="about-tab-area">
+                            <ul class="nav nav-tabs mb-50" id="mona_modelTab" role="tablist">
+                                {{#each tabs}}
+                                    <li class="nav-item">
+                                        <a class="nav-link{{#if @first}} active{{/if}}" id="tab{{@index}}" data-toggle="tab" href="#tab-{{@index}}" role="tab" aria-controls="tab-{{@index}}" aria-selected="{{#if @first}}true{{else}}false{{/if}}">
+                                            {{tabText}}
+                                        </a>
+                                    </li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                        <div class="about-tab-content">
+                            <div class="tab-content" id="mona_modelTabContent">
+                                {{#each tabs}}
+                                    <div class="tab-pane fade{{#if @first}} show active{{/if}}" id="tab-{{@index}}" role="tabpanel" aria-labelledby="tab{{@index}}">
+                                        <div class="tab-content-text">
+                                            {{{content}}}
+                                            {{#if link.href}}
+                                                <a href="{{link.href}}" title="{{link.title}}"
+                                                   class="btn uza-btn mt-30">{{link.label}}</a>
+                                            {{/if}}
+                                        </div>
+                                    </div>
+                                {{/each}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/unless}}
+        </div>
+    </div>
+    <div class="about-bg-pattern">
+        <img src="/_client/images/core-img/curve-2.png" alt="">
+    </div>
+</section>

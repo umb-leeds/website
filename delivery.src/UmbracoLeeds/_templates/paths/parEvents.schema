@@ -1,0 +1,13 @@
+{
+    "refs": {
+        "/items/date": [
+            "/dataDate"
+        ],
+        "/items/link": [
+            "/dataLink"
+        ],
+        "/items/image": [
+            "/dataImage"
+        ]
+    }
+}

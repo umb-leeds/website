@@ -1,0 +1,195 @@
+{
+    "content": {
+        "rows": [
+            {
+                "config": {},
+                "items": [
+                    {
+                        "title": "Services",
+                        "crumbs": [
+                            {
+                                "title": "",
+                                "href": "#",
+                                "label": "Home"
+                            },
+                            {
+                                "title": "",
+                                "href": "",
+                                "label": "Services"
+                            }
+                        ],
+                        "_ref": "/parBreadcrumb"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "items": [
+                            {
+                                "iconName": "cone_alt",
+                                "title": "Business Strategy",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+                            },
+                            {
+                                "iconName": "piechart",
+                                "title": "Market Analytics",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+                            },
+                            {
+                                "iconName": "easel",
+                                "title": "Marketing Social",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+                            },
+                            {
+                                "iconName": "lightbulb_alt",
+                                "title": "UX/UI Design",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+                            },
+                            {
+                                "iconName": "drawer_alt",
+                                "title": "Software Development",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+                            },
+                            {
+                                "iconName": "genius",
+                                "title": "Technology",
+                                "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+                            }
+                        ],
+                        "_ref": "/parServices",
+                        "yuzu-path": "/content/rows[1]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "item": {
+                            "title": "Interested in working with us?",
+                            "text": "Hit the button below or give us a call!",
+                            "link": {
+                                "title": "",
+                                "href": "#",
+                                "label": "<span>Call us now:</span> (+65) 1234 5678"
+                            },
+                            "_ref": "/parCta",
+                            "yuzu-path": "/content/rows[2]/items[0]/item"
+                        },
+                        "_ref": "/parCtaGridItem",
+                        "yuzu-path": "/content/rows[2]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "items": [
+                            {
+                                "headshot": {
+                                    "src": "/_client/images/bg-img/24.jpg",
+                                    "alt": ""
+                                },
+                                "quote": "Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.",
+                                "stars": 3.6,
+                                "name": "Darrell Goodman",
+                                "position": "CEO Colorlib"
+                            },
+                            {
+                                "headshot": {
+                                    "src": "/_client/images/bg-img/7.jpg",
+                                    "alt": ""
+                                },
+                                "quote": "Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.",
+                                "stars": 4.5,
+                                "name": "Darrell Goodman",
+                                "position": "CEO Colorlib"
+                            }
+                        ],
+                        "_ref": "/parTestimonials",
+                        "yuzu-path": "/content/rows[3]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "stats": [
+                            {
+                                "value": 90,
+                                "description": "PROJECTS COMPLETED",
+                                "iconName": "piechart"
+                            },
+                            {
+                                "value": 120,
+                                "description": "Happy<br> clients",
+                                "iconName": "heart_alt"
+                            },
+                            {
+                                "value": 50,
+                                "description": "Web<br> awards",
+                                "iconName": "book_alt"
+                            },
+                            {
+                                "value": 20,
+                                "description": "our<br> experts",
+                                "iconName": "profile"
+                            }
+                        ],
+                        "_ref": "/parStatistics",
+                        "yuzu-path": "/content/rows[4]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "item": {
+                            "title": "Subscribe to our Newsletter",
+                            "text": "Subscribe our newsletter gor get notification about new updates, etc...",
+                            "form": {
+                                "testForm": {
+                                    "fieldsets": [
+                                        {
+                                            "fields": [
+                                                {
+                                                    "name": "email",
+                                                    "label": "Your Email",
+                                                    "value": "",
+                                                    "type": "email",
+                                                    "id": "",
+                                                    "placeholder": "Your Email",
+                                                    "pattern": "",
+                                                    "autocomplete": "",
+                                                    "min": "",
+                                                    "max": "",
+                                                    "minlength": "",
+                                                    "maxlength": "",
+                                                    "isRequired": true,
+                                                    "isDisabled": false,
+                                                    "isReadonly": false,
+                                                    "_ref": "/parFormTextInput"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "submitButtonText": "Subscribe",
+                                    "_ref": "/parFormCta"
+                                }
+                            },
+                            "_ref": "/parCtaForm",
+                            "yuzu-path": "/content/rows[5]/items[0]/item"
+                        },
+                        "_ref": "/parCtaGridItem",
+                        "yuzu-path": "/content/rows[5]/items[0]"
+                    }
+                ]
+            }
+        ]
+    }
+}

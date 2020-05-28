@@ -1,0 +1,25 @@
+<div class="uza-cta-area section-padding-0-80">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-8">
+                <div class="cta-content mb-80">
+                    {{#if title}}
+                        <h2>{{title}}</h2>
+                    {{/if}}
+                    {{#if text}}
+                        <h6>{{text}}</h6>
+                    {{/if}}
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                {{#if link.label}}
+                    <div class="cta-content mb-80">
+                        <div class="call-now-btn">
+                            <a href="{{link.href}}" title="{{link.title}}">{{{link.label}}}</a>
+                        </div>
+                    </div>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</div>

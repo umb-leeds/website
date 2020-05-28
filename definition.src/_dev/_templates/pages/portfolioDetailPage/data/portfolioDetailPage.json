@@ -1,0 +1,37 @@
+{
+    "breadcrumb": {
+        "title": "Portfolio",
+        "crumbs": [
+            {
+                "title": "",
+                "href": "#",
+                "label": "Home"
+            },
+            {
+                "title": "",
+                "href": "#",
+                "label": "Portfolios"
+            },
+            {
+                "title": "",
+                "href": "",
+                "label": "App Development"
+            }
+        ]
+    },
+    "content": {
+        "rows": [
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parPortfolio"
+                    }
+                ]
+            }
+        ]
+    },
+    "cta": {
+        "$ref": "/parCtaForm"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "headshot": {
+                "src": "/_client/images/bg-img/24.jpg",
+                "alt": ""
+            },
+            "quote": "Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.",
+            "stars": 3.6,
+            "name": "Darrell Goodman",
+            "position": "CEO Colorlib"
+        },
+        {
+            "headshot": {
+                "src": "/_client/images/bg-img/7.jpg",
+                "alt": ""
+            },
+            "quote": "Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.",
+            "stars": 4.5,
+            "name": "Darrell Goodman",
+            "position": "CEO Colorlib"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+<ul {{#unless isSubNav}}id="nav"{{else}}class="dropdown"{{/unless}}>
+    {{#each items}}
+        <li {{#if isActive}}class="current-item"{{/if}}>
+            <a href="{{link.href}}" title="{{link.title}}">{{link.label}}</a>
+            {{#if subNav}}
+                {{> parSiteNav subNav}}
+            {{/if}}
+        </li>
+    {{/each}}
+</ul>

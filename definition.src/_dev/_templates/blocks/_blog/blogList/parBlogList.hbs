@@ -1,0 +1,12 @@
+{{#each items}}
+    <div class="col-12 {{#ifCond ../_modifiers.[0] '===' 'blog-details'}}col-lg-6{{else}}col-lg-4{{/ifCond}}">
+        <div class="single-blog-post bg-img mb-80" style="background-image: url({{image.src}});">
+            <div class="post-content">
+                <span class="post-date"><span>{{date.day}}</span> {{date.monthYear}}</span>
+                <a href="{{link.href}}" title="{{link.title}}" class="post-title">{{title}}</a>
+                <p>{{summary}}</p>
+                <a href="{{link.href}}" title="{{link.title}}" class="read-more-btn">{{link.label}} <i class="arrow_carrot-2right"></i></a>
+            </div>
+        </div>
+    </div>
+{{/each}}

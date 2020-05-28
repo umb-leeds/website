@@ -1,0 +1,190 @@
+{
+    "breadcrumb": {
+        "title": "Blog Single",
+        "crumbs": [
+            {
+                "title": "",
+                "href": "#",
+                "label": "Home"
+            },
+            {
+                "title": "",
+                "href": "#",
+                "label": "Blog"
+            },
+            {
+                "title": "",
+                "href": "",
+                "label": "Amazon REV2018 Workshop: Road To Seattle"
+            }
+        ],
+        "_ref": "/parBreadcrumb"
+    },
+    "header": {
+        "date": {
+            "day": "23",
+            "monthYear": "August, 2018"
+        },
+        "title": "Amazon REV2018 Workshop: Road to Seattle",
+        "_ref": "/parBlogHeader",
+        "yuzu-path": "/header"
+    },
+    "content": {
+        "rows": [
+            {
+                "items": [
+                    {
+                        "image": {
+                            "src": "/_client/images/bg-img/14.jpg",
+                            "alt": ""
+                        },
+                        "_ref": "/parBlogImage",
+                        "yuzu-path": "/content/rows[0]/items[0]"
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "content": "<h2>Content is fire, social media is gasoline</h2><p>It sportsman earnestly ye preserved an on. Moment led family sooner cannot her window pulled any. Or raillery if improved landlord to speaking hastened differed he. Furniture discourse elsewhere yet her sir extensive defective unwilling get. Why resolution one motionless you him thoroughly. Noise is round to in it quick timed doors. Old there any widow law rooms. Agreed but expect repair she nay sir silent person. Direction can dependent one bed situation attempted. His she are man their spite avoid. Her pretended fulfilled extremely education yet. Satisfied did one admitting incommode tolerably how are.</p>",
+                        "_ref": "/parBlogRte",
+                        "yuzu-path": "/content/rows[1]/items[0]"
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "quote": "Be passionate about your company’s culture and your mission. Remain positive because it inspires others.",
+                        "name": "Kurt Uhlir",
+                        "_ref": "/parBlogQuote",
+                        "yuzu-path": "/content/rows[2]/items[0]"
+                    }
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "categories": [
+            {
+                "title": "",
+                "href": "#",
+                "label": "Tutorials"
+            },
+            {
+                "title": "",
+                "href": "#",
+                "label": "Business"
+            }
+        ],
+        "social": {
+            "title": "Share",
+            "links": [
+                {
+                    "label": "facebook",
+                    "href": "#",
+                    "title": ""
+                },
+                {
+                    "label": "twitter",
+                    "href": "#",
+                    "title": ""
+                },
+                {
+                    "label": "google-plus",
+                    "href": "#",
+                    "title": ""
+                },
+                {
+                    "label": "linkedin",
+                    "href": "#",
+                    "title": ""
+                },
+                {
+                    "label": "envelope",
+                    "href": "#",
+                    "title": ""
+                }
+            ]
+        },
+        "relatedArticles": {
+            "title": "Related posts",
+            "items": {
+                "items": [
+                    {
+                        "date": {
+                            "day": "23",
+                            "monthYear": "August, 2018"
+                        },
+                        "title": "SEO: The Movie By Ignite Visibility",
+                        "summary": "Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut",
+                        "link": {
+                            "title": "",
+                            "href": "#",
+                            "label": "Read More"
+                        },
+                        "image": {
+                            "src": "/_client/images/bg-img/8.jpg",
+                            "alt": ""
+                        }
+                    },
+                    {
+                        "date": {
+                            "day": "13",
+                            "monthYear": "December, 2018"
+                        },
+                        "title": "What Curling Irons Are The Best Ones",
+                        "summary": "Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut",
+                        "link": {
+                            "label": "Read More",
+                            "href": "#",
+                            "title": ""
+                        },
+                        "image": {
+                            "src": "/_client/images/bg-img/9.jpg",
+                            "alt": ""
+                        }
+                    }
+                ]
+            }
+        },
+        "_ref": "/parBlogFooter",
+        "yuzu-path": "/footer"
+    },
+    "cta": {
+        "title": "Subscribe to our Newsletter",
+        "text": "Subscribe our newsletter gor get notification about new updates, etc...",
+        "form": {
+            "testForm": {
+                "fieldsets": [
+                    {
+                        "fields": [
+                            {
+                                "name": "email",
+                                "label": "Your Email",
+                                "value": "",
+                                "type": "email",
+                                "id": "",
+                                "placeholder": "Your Email",
+                                "pattern": "",
+                                "autocomplete": "",
+                                "min": "",
+                                "max": "",
+                                "minlength": "",
+                                "maxlength": "",
+                                "isRequired": true,
+                                "isDisabled": false,
+                                "isReadonly": false,
+                                "_ref": "/parFormTextInput"
+                            }
+                        ]
+                    }
+                ],
+                "submitButtonText": "Subscribe",
+                "_ref": "/parFormCta"
+            }
+        },
+        "_ref": "/parCtaForm",
+        "yuzu-path": "/cta"
+    }
+}

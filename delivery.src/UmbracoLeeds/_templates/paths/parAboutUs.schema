@@ -1,0 +1,10 @@
+{
+    "refs": {
+        "/video/image": [
+            "/dataImage"
+        ],
+        "/tabs/link": [
+            "/dataLink"
+        ]
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "categories": [
+        {
+            "title": "",
+            "href": "#",
+            "label": "Tutorials"
+        },
+        {
+            "title": "",
+            "href": "#",
+            "label": "Business"
+        }
+    ],
+    "social": {
+        "title": "Share",
+        "links": [
+            {
+                "label": "facebook",
+                "href": "#",
+                "title": ""
+            },
+            {
+                "label": "twitter",
+                "href": "#",
+                "title": ""
+            },
+            {
+                "label": "google-plus",
+                "href": "#",
+                "title": ""
+            },
+            {
+                "label": "linkedin",
+                "href": "#",
+                "title": ""
+            },
+            {
+                "label": "envelope",
+                "href": "#",
+                "title": ""
+            }
+        ]
+    },
+    "relatedArticles": {
+        "title": "Related posts",
+        "items": {
+            "items": [
+                {
+                    "date": {
+                        "day": "23",
+                        "monthYear": "August, 2018"
+                    },
+                    "title": "SEO: The Movie By Ignite Visibility",
+                    "summary": "Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut",
+                    "link": {
+                        "title": "",
+                        "href": "#",
+                        "label": "Read More"
+                    },
+                    "image": {
+                        "src": "/_client/images/bg-img/8.jpg",
+                        "alt": ""
+                    }
+                },
+                {
+                    "date": {
+                        "day": "13",
+                        "monthYear": "December, 2018"
+                    },
+                    "title": "What Curling Irons Are The Best Ones",
+                    "summary": "Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut",
+                    "link": {
+                        "label": "Read More",
+                        "href": "#",
+                        "title": ""
+                    },
+                    "image": {
+                        "src": "/_client/images/bg-img/9.jpg",
+                        "alt": ""
+                    }
+                }
+            ]
+        }
+    }
+}

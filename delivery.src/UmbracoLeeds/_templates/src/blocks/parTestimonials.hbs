@@ -1,0 +1,56 @@
+{{#if items.[0]}}
+    <div class="clients-feedback-area mt-80 section-padding-80 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonial-slides owl-carousel">
+                        {{#each items}}
+                            <div class="single-testimonial-slide d-flex align-items-center">
+                                <div class="testimonial-thumbnail">
+                                    {{#if headshot.src}}
+                                        <img src="{{headshot.src}}" alt="{{headshot.alt}}">
+                                    {{/if}}
+                                </div>
+                                <!-- Testimonial Content -->
+                                <div class="testimonial-content">
+                                    <h4>“{{quote}}”</h4>
+                                    {{#if stars}}
+                                        <div class="ratings" title="{{stars}} stars">
+                                            {{#ifCond stars '>' 4.75}}
+                                                <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i>
+                                            {{else ifCond stars '>' 4.25}}
+                                                <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star-half_alt"></i>
+                                            {{else ifCond stars '>' 3.75}}
+                                                <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star_alt"></i>
+                                            {{else ifCond stars '>' 3.25}}
+                                                <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star-half_alt"></i><i class="icon_star_alt"></i>
+                                            {{else ifCond stars '>' 2.75}}
+                                                <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i>
+                                            {{else ifCond stars '>' 2.25}}
+                                                <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star-half_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i>
+                                            {{else ifCond stars '>' 1.75}}
+                                                <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i>
+                                            {{else ifCond stars '>' 1.25}}
+                                                <i class="icon_star"></i><i class="icon_star-half_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i>
+                                            {{else ifCond stars '>' 0.75}}
+                                                <i class="icon_star"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i>
+                                            {{else ifCond stars '>' 0.25}}
+                                                <i class="icon_star-half_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i>
+                                            {{else}}
+                                                <i class="icon_star_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i>
+                                            {{/ifCond}}
+                                        </div>
+                                    {{/if}}
+                                    <div class="author-info">
+                                        <h5>{{name}} {{#if position}}<span>- {{position}}</span>{{/if}}</h5>
+                                    </div>
+                                    <div class="quote-icon"><img src="/_client/images/core-img/quote.png" alt=""></div>
+                                </div>
+                            </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/if}}

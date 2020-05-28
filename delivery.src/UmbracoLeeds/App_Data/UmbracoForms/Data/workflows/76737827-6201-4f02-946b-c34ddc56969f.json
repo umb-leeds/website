@@ -1,0 +1,16 @@
+{
+  "id": "76737827-6201-4f02-946b-c34ddc56969f",
+  "name": "Send template email to phil@hifi.agency",
+  "form": "cea2c334-e504-4e0b-8dbb-ae3aefd3a7fb",
+  "active": true,
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "phil@hifi.agency",
+    "SenderEmail": "",
+    "Subject": "The Form '{form_name}' was submitted",
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}

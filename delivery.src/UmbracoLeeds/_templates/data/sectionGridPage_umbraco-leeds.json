@@ -1,0 +1,138 @@
+{
+    "content": {
+        "rows": [
+            {
+                "items": [
+                    {
+                        "slides": [
+                            {
+                                "title": "Become more <span>involved</span>",
+                                "text": "Bringing together anyone interested in Umbraco</br> from around the Leeds area",
+                                "link": {
+                                    "title": "",
+                                    "href": "#",
+                                    "label": "Join"
+                                },
+                                "image": {
+                                    "src": "/_client/images/bg-img/1.png",
+                                    "alt": ""
+                                }
+                            }
+                        ],
+                        "_ref": "/parWelcomeSlides",
+                        "yuzu-path": "/content/rows[0]/items[0]"
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "items": [
+                            {
+                                "date": {
+                                    "day": "06",
+                                    "monthYear": "February, 2020"
+                                },
+                                "venue": "twenty six",
+                                "title": "Monthly Meetup - February Talks",
+                                "summary": "We're really excited to have a fantastic community speaker coming along from far-afield: Kevin Jump (Mr uSync)</p> <p>Agenda:<br/>1800 - If you're super early, feel free to come and say hi.<br/>1830 - Open for social and mingling",
+                                "link": {
+                                    "title": "",
+                                    "href": "https://www.meetup.com/umbLeeds/events/rgrcdrybcdbjb/",
+                                    "label": "Read More"
+                                },
+                                "image": {
+                                    "src": "/_client/images/bg-img/8.jpg",
+                                    "alt": ""
+                                }
+                            },
+                            {
+                                "date": {
+                                    "day": "06",
+                                    "monthYear": "February, 2020"
+                                },
+                                "venue": "twenty six",
+                                "title": "Monthly Meetup - February Talks",
+                                "summary": "We're really excited to have a fantastic community speaker coming along from far-afield: Kevin Jump (Mr uSync)</p> <p>Agenda:<br/>1800 - If you're super early, feel free to come and say hi.<br/>1830 - Open for social and mingling",
+                                "link": {
+                                    "title": "",
+                                    "href": "https://www.meetup.com/umbLeeds/events/rgrcdrybcdbjb/",
+                                    "label": "Read More"
+                                },
+                                "image": {
+                                    "src": "/_client/images/bg-img/10.jpg",
+                                    "alt": ""
+                                }
+                            },
+                            {
+                                "date": {
+                                    "day": "06",
+                                    "monthYear": "February, 2020"
+                                },
+                                "venue": "twenty six",
+                                "title": "Monthly Meetup - February Talks",
+                                "summary": "We're really excited to have a fantastic community speaker coming along from far-afield: Kevin Jump (Mr uSync)</p> <p>Agenda:<br/>1800 - If you're super early, feel free to come and say hi.<br/>1830 - Open for social and mingling",
+                                "link": {
+                                    "title": "",
+                                    "href": "https://www.meetup.com/umbLeeds/events/rgrcdrybcdbjb/",
+                                    "label": "Read More"
+                                },
+                                "image": {
+                                    "src": "/_client/images/bg-img/10.jpg",
+                                    "alt": ""
+                                }
+                            }
+                        ],
+                        "_ref": "/parEvents",
+                        "yuzu-path": "/content/rows[1]/items[0]"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "item": {
+                            "title": "Subscribe to our Newsletter",
+                            "text": "Subscribe our newsletter gor get notification about new updates, etc...",
+                            "form": {
+                                "testForm": {
+                                    "fieldsets": [
+                                        {
+                                            "fields": [
+                                                {
+                                                    "name": "email",
+                                                    "label": "Your Email",
+                                                    "value": "",
+                                                    "type": "email",
+                                                    "id": "",
+                                                    "placeholder": "Your Email",
+                                                    "pattern": "",
+                                                    "autocomplete": "",
+                                                    "min": "",
+                                                    "max": "",
+                                                    "minlength": "",
+                                                    "maxlength": "",
+                                                    "isRequired": true,
+                                                    "isDisabled": false,
+                                                    "isReadonly": false,
+                                                    "_ref": "/parFormTextInput"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "submitButtonText": "Subscribe",
+                                    "_ref": "/parFormCta"
+                                }
+                            },
+                            "_ref": "/parCtaForm",
+                            "yuzu-path": "/content/rows[2]/items[0]/item"
+                        },
+                        "_ref": "/parCtaGridItem",
+                        "yuzu-path": "/content/rows[2]/items[0]"
+                    }
+                ]
+            }
+        ]
+    }
+}

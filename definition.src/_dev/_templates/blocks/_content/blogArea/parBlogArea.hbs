@@ -1,0 +1,22 @@
+<section class="uza-blog-area">
+    <div class="blog-bg-curve">
+        <img src="/_client/images/core-img/curve-4.png" alt="">
+    </div>
+    {{#if cta}}
+        {{> parCta cta }}
+    {{/if}}
+    <div class="container">
+        {{#if title}}
+            <div class="row">
+                <div class="col-12">
+                    {{> parSectionHeading title }}
+                </div>
+            </div>
+        {{/if}}
+        <div class="row">
+            {{#if blogs}}
+                {{> parBlogList blogs }}
+            {{/if}}
+        </div>
+    </div>
+</section>

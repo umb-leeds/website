@@ -1,0 +1,30 @@
+{
+    "title": {
+        "title": "Why choose us",
+        "text": "We're your partner in your success"
+    },
+    "image": {
+        "src": "/_client/images/bg-img/22.jpg",
+        "alt": ""
+    },
+    "reasons": [
+        {
+            "text": "Distinctive Experts That Provide Effortless Expertise"
+        },
+        {
+            "text": "Enriched Outcomes Enabled By Experienced Professionals"
+        },
+        {
+            "text": "Wide-Ranging Thoughts Bread Exceptional Ideas"
+        },
+        {
+            "text": "Generating Best Results Through Open Communication"
+        },
+        {
+            "text": "Extensive Marketing Research Generates Valuable Insights"
+        },
+        {
+            "text": "We are Results-Driven, Oriented, We deliver results"
+        }
+    ]
+}

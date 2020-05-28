@@ -1,0 +1,40 @@
+{
+    "id": "/dataRows",
+    "type": "object",
+    "additionalProperties": false,
+    "anyOfTypes": [
+        "parRowBuilder",
+        "parBlogRowBuilder"
+    ],
+    "properties": {
+        "rows": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "config": {
+                        "anyOf": [
+                            {
+                                "$ref": "/parBlogRowBuilderConfig"
+                            },
+                            {
+                                "$ref": "/parRowBuilderConfig"
+                            }
+                        ]
+                    },
+                    "items": {
+                        "anyOf": [
+                            {
+                                "$ref": "/parBlogRowBuilderItems"
+                            },
+                            {
+                                "$ref": "/parRowBuilderItems"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

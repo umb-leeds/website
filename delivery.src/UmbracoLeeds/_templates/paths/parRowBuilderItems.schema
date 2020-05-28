@@ -1,0 +1,23 @@
+{
+    "refs": {
+        "": [
+            "/parAboutUs",
+            "/parBlogArea",
+            "/parBreadcrumb",
+            "/parContact",
+            "/parContentRte",
+            "/parCtaGridItem",
+            "/parPortfolio",
+            "/parSectionHeading",
+            "/parServices",
+            "/parStatistics",
+            "/parPortfolioArea",
+            "/parTeamArea",
+            "/parTestimonials",
+            "/parWelcomeSlides",
+            "/parWhyChooseUs",
+            "/parBlogList",
+            "/parEvents"
+        ]
+    }
+}

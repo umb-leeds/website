@@ -1,0 +1,73 @@
+<section class="uza-portfolio-area section-padding-80">
+    {{#if title}}
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    {{> parSectionHeading title }}
+                </div>
+            </div>
+        </div>
+    {{/if}}
+    {{#if filters.[0]}}
+        <div class="portfolio-menu text-center mb-80">
+            <button class="btn active" data-filter="*">All</button>
+            {{#each filters}}
+                <button class="btn" data-filter=".{{target}}">{{text}}</button>
+            {{/each}}
+        </div>
+    {{/if}}
+    <div class="container-fluid">
+        <div class="row{{#ifCond mode '===' 'grid'}} uza-portfolio{{/ifCond}}">
+            {{#ifCond mode '===' 'carousel'}}
+                <div class="team-sildes owl-carousel">
+            {{/ifCond}}
+                {{#each items}}
+                    {{#ifCond ../mode '===' 'grid'}}
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item{{#each tagTargets}} {{this}}{{/each}}">
+                    {{/ifCond}}
+                            <div class="single-team-slide">
+                                {{#if image.src}}
+                                    <img src="{{image.src}}" alt="{{image.alt}}">
+                                {{/if}}
+                                <div class="overlay-effect">
+                                    {{#if subTitle}}
+                                        <h6>{{subTitle}}</h6>
+                                    {{/if}}
+                                    {{#if title}}
+                                        <h4>{{title}}</h4>
+                                    {{/if}}
+                                    {{#if text}}
+                                        <p>{{text}}</p>
+                                    {{/if}}
+                                </div>
+                                <div class="team-social-info">
+                                    {{#each socialLinks}}
+                                        <a href="{{href}}" class="{{label}}" data-toggle="tooltip" data-placement="top" title="{{label}}">
+                                            <i class="fa fa-{{label}}"></i>
+                                        </a>
+                                    {{/each}}
+                                </div>
+                            </div>
+                    {{#ifCond ../mode '===' 'grid'}}
+                        </div>
+                    {{/ifCond}}
+                {{/each}}
+            {{#ifCond mode '===' 'carousel'}}
+            </div>
+            {{/ifCond}}
+        </div>
+    </div>
+    {{#if testimonials}}
+        {{> parTestimonials testimonials }}
+        <div class="container">
+            <div class="border-line"></div>
+        </div>
+        <div class="portfolio-bg-curve">
+            <img src="/_client/images/core-img/curve-3.png" alt="">
+        </div>
+    {{else}}
+        <div class="container">
+            <div class="border-line mt-80"></div>
+        </div>
+    {{/if}}
+</section>

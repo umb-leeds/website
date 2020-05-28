@@ -1,0 +1,10 @@
+{
+    "refs": {
+        "/title": [
+            "/parSectionHeading"
+        ],
+        "/image": [
+            "/dataImage"
+        ]
+    }
+}

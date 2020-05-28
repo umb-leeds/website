@@ -1,0 +1,68 @@
+{
+    "id": "/parTeamArea",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "title": {
+            "$ref": "/parSectionHeading"
+        },
+        "mode": {
+            "type": "string",
+            "enum": ["carousel", "grid"]
+        },
+        "filters": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "target": {
+                        "type": "string"
+                    },
+                    "text": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "items": {
+            "type": "array",
+            "items": {
+                "properties": {
+                    "subTitle": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "text": {
+                        "type": "string"
+                    },
+                    "image": {
+                        "$ref": "/dataImage"
+                    },
+                    "tagTargets": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "socialLinks": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "/dataLink"
+                        }
+                    },
+                    "link": {
+                        "$ref": "/dataLink"
+                    }
+                }
+            }
+        },
+        "testimonials": {
+            "$ref": "/parTestimonials"
+        }
+    },
+    "additionalProperties": false
+}

@@ -1,0 +1,31 @@
+<div class="col-12 col-lg-10">
+    <div class="d-flex align-items-center justify-content-between">
+            <div class="post-catagories">
+                {{#if categories.[0]}}
+                    <ul class="d-flex flex-wrap align-items-center">
+                        {{#each categories}}
+                            <li><a href="{{href}}" title="{{title}}">{{label}}</a></li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+            </div>
+        <div class="uza-post-share d-flex align-items-center">
+            {{#if social.links.[0]}}
+                <h6 class="mb-0 mr-3">{{social.title}}:</h6>
+                <div class="social-info-">
+                    {{#each social.links}}
+                        <a href="{{href}}" title="{{title}}"><i class="fa fa-{{label}}" aria-hidden="true"></i></a>
+                    {{/each}}
+                </div>
+            {{/if}}
+        </div>
+    </div>
+    {{#if relatedArticles}}
+        <div class="related-news-area">
+            <h2 class="mb-4">{{relatedArticles.title}}</h2>
+            <div class="row">
+                {{{ modPartial 'parBlogList' relatedArticles.items 'blog-details'}}}
+            </div>
+        </div>
+    {{/if}}
+</div>

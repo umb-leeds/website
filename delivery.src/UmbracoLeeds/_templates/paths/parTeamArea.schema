@@ -1,0 +1,25 @@
+{
+    "enums": {
+        "/mode": [
+            "carousel",
+            "grid"
+        ]
+    },
+    "refs": {
+        "/title": [
+            "/parSectionHeading"
+        ],
+        "/items/image": [
+            "/dataImage"
+        ],
+        "/items/socialLinks": [
+            "/dataLink"
+        ],
+        "/items/link": [
+            "/dataLink"
+        ],
+        "/testimonials": [
+            "/parTestimonials"
+        ]
+    }
+}

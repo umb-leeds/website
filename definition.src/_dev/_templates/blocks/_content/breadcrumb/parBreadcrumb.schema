@@ -1,0 +1,18 @@
+{
+    "id": "/parBreadcrumb",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "crumbs": {
+            "type": "array",
+            "items": {
+                "$ref": "/dataLink"
+            }
+        }
+    },
+    "additionalProperties": false
+}

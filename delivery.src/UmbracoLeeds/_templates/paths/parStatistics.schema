@@ -1,0 +1,8 @@
+{
+    "numbers": {
+        "/stats/value": {
+            "type": "number"
+        }
+    },
+    "refs": {}
+}

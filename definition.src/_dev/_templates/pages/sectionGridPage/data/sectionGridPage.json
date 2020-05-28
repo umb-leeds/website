@@ -1,0 +1,53 @@
+{
+    "content": {
+        "rows": [
+            {
+                "items": [
+                    {
+                        "$ref": "/parWelcomeSlides_umbraco-leeds"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parAboutUs"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parServices"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parPortfolioArea"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parBlogArea"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parCtaGridItem_form"
+                    }
+                ]
+            }
+        ]
+    }
+}

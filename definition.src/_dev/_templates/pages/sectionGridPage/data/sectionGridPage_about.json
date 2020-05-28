@@ -1,0 +1,83 @@
+{
+    "content": {
+        "rows": [
+            {
+                "config": {},
+                "items": [
+                    {
+                        "title": "About",
+                        "crumbs": [
+                            {
+                                "title": "",
+                                "href": "#",
+                                "label": "Home"
+                            },
+                            {
+                                "title": "",
+                                "href": "",
+                                "label": "About"
+                            }
+                        ],
+                        "_ref": "/parBreadcrumb"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parAboutUs_tabs"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parWhyChooseUs"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parTeamArea"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parCtaGridItem"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parTestimonials"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parStatistics"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parCtaGridItem_form"
+                    }
+                ]
+            }
+        ]
+    }
+}

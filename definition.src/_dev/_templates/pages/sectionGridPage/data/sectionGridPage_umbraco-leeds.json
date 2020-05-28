@@ -1,0 +1,28 @@
+{
+    "content": {
+        "rows": [
+            {
+                "items": [
+                    {
+                        "$ref": "/parWelcomeSlides"
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "$ref": "/parEvents"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parCtaGridItem_form"
+                    }
+                ]
+            }
+        ]
+    }
+}

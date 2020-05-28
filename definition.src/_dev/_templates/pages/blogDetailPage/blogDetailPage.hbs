@@ -1,0 +1,29 @@
+{{#if breadcrumb}}
+    {{> parBreadcrumb breadcrumb }}
+{{/if}}
+<section class="blog-details-area section-padding-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="blog-details-content">
+                    <div class="post-details-text">
+                        <div class="row justify-content-center">
+                            {{#if header}}
+                                {{> parBlogHeader header }}
+                            {{/if}}
+                            {{#if content}}
+                                {{> parBlogRowBuilder content }}
+                            {{/if}}
+                            {{#if footer}}
+                                {{> parBlogFooter footer }}
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{#if cta}}
+    {{> parCtaForm cta }}
+{{/if}}

@@ -1,0 +1,57 @@
+{
+    "title": "Market Analysis",
+    "subTitle": "ANALYSIS, MARKETING",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+    "client": "Clarence Ryan",
+    "date": "07 DEC 2018",
+    "location": "United States",
+    "author": "Phillip Simon",
+    "image": {
+        "src": "/_client/images/bg-img/13.jpg",
+        "alt": ""
+    },
+    "socialLinks": [
+        {
+            "title": "Share on Facebook",
+            "href": "#",
+            "label": "facebook"
+        },
+        {
+            "title": "Share on Twitter",
+            "href": "#",
+            "label": "twitter"
+        },
+        {
+            "title": "Share on Pinterest",
+            "href": "#",
+            "label": "pinterest"
+        },
+        {
+            "title": "",
+            "href": "#",
+            "label": "feed"
+        },
+        {
+            "title": "",
+            "href": "#",
+            "label": "heart"
+        }
+    ],
+    "navigation": {
+        "previous": {
+            "title": "",
+            "href": "#",
+            "label": "Previous Post"
+        },
+        "back": {
+            "title": "",
+            "href": "#",
+            "label": "Back to home"
+        },
+        "next": {
+            "title": "",
+            "href": "#",
+            "label": "Next post"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "title": {
+        "title": "Our Portfolio",
+        "text": "We stay on top of our industry by being experts in yours."
+    },
+    "mode": "carousel",
+    "items": [
+        {
+            "subTitle": "",
+            "title": "Digital Marketing",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+            "image": {
+                "src": "/_client/images/bg-img/3.jpg",
+                "alt": ""
+            },
+            "link": {
+                "title": "",
+                "href": "#",
+                "label": "f"
+            }
+        },
+        {
+            "subTitle": "",
+            "title": "Digital Marketing",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+            "image": {
+                "src": "/_client/images/bg-img/4.jpg",
+                "alt": ""
+            },
+            "link": {
+                "title": "",
+                "href": "#",
+                "label": "f"
+            }
+        },
+        {
+            "subTitle": "",
+            "title": "Digital Marketing",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+            "image": {
+                "src": "/_client/images/bg-img/5.jpg",
+                "alt": ""
+            },
+            "link": {
+                "title": "",
+                "href": "#",
+                "label": "f"
+            }
+        },
+        {
+            "subTitle": "",
+            "title": "Digital Marketing",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+            "image": {
+                "src": "/_client/images/bg-img/6.jpg",
+                "alt": ""
+            },
+            "link": {
+                "title": "",
+                "href": "#",
+                "label": "f"
+            }
+        },
+        {
+            "subTitle": "",
+            "title": "Digital Marketing",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est",
+            "image": {
+                "src": "/_client/images/bg-img/4.jpg",
+                "alt": ""
+            },
+            "link": {
+                "title": "",
+                "href": "#",
+                "label": "f"
+            }
+        }
+    ],
+    "testimonials": {
+        "$ref": "/parTestimonials"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "title": "Subscribe to our Newsletter",
+    "text": "Subscribe our newsletter gor get notification about new updates, etc...",
+    "form": {
+        "testForm": {
+            "fieldsets": [
+                {
+                    "fields": [
+                        {
+                            "name": "email",
+                            "label": "Your Email",
+                            "value": "",
+                            "type": "email",
+                            "id": "",
+                            "placeholder": "Your Email",
+                            "pattern": "",
+                            "autocomplete": "",
+                            "min": "",
+                            "max": "",
+                            "minlength": "",
+                            "maxlength": "",
+                            "isRequired": true,
+                            "isDisabled": false,
+                            "isReadonly": false,
+                            "_ref": "/parFormTextInput"
+                        }
+                    ]
+                }
+            ],
+            "submitButtonText": "Subscribe",
+            "_ref": "/parFormCta"
+        }
+    }
+}

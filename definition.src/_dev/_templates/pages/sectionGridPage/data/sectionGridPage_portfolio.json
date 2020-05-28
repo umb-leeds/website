@@ -1,0 +1,43 @@
+{
+    "content": {
+        "rows": [
+            {
+                "config": {},
+                "items": [
+                    {
+                        "title": "Portfolios",
+                        "crumbs": [
+                            {
+                                "title": "",
+                                "href": "#",
+                                "label": "Home"
+                            },
+                            {
+                                "title": "",
+                                "href": "",
+                                "label": "Portfolios"
+                            }
+                        ],
+                        "_ref": "/parBreadcrumb"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parPortfolioArea_grid"
+                    }
+                ]
+            },
+            {
+                "config": {},
+                "items": [
+                    {
+                        "$ref": "/parCtaGridItem_form"
+                    }
+                ]
+            }
+        ]
+    }
+}

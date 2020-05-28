@@ -1,0 +1,10 @@
+{
+    "refs": {
+        "/sections/links": [
+            "/dataLink"
+        ],
+        "/aboutSection/socialLinks": [
+            "/dataLink"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "refs": {
+        "/image": [
+            "/dataImage"
+        ],
+        "/socialLinks": [
+            "/dataLink"
+        ],
+        "/navigation/previous": [
+            "/dataLink"
+        ],
+        "/navigation/back": [
+            "/dataLink"
+        ],
+        "/navigation/next": [
+            "/dataLink"
+        ]
+    }
+}

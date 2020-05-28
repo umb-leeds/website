@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "iconName": "cone_alt",
+            "title": "Business Strategy",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+        },
+        {
+            "iconName": "piechart",
+            "title": "Market Analytics",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+        },
+        {
+            "iconName": "easel",
+            "title": "Marketing Social",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+        },
+        {
+            "iconName": "lightbulb_alt",
+            "title": "UX/UI Design",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+        },
+        {
+            "iconName": "drawer_alt",
+            "title": "Software Development",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+        },
+        {
+            "iconName": "genius",
+            "title": "Technology",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata."
+        }
+    ]
+}

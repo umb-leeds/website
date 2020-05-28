@@ -1,0 +1,19 @@
+{
+    "parFormBuilder": {
+        "refs": {
+            "/fieldsets/fields": [
+                "/parFormCheckboxRadio",
+                "/parFormCheckboxRadioList",
+                "/parFormTextArea",
+                "/parFormTextInput",
+                "/parFormSelect"
+            ],
+            "/actionLinks": [
+                "/dataLink"
+            ]
+        }
+    },
+    "anyOfTypes": [
+        "parFormBuilder"
+    ]
+}

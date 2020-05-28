@@ -1,0 +1,25 @@
+{
+    "id": "/blogDetailPage",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "breadcrumb": {
+            "$ref": "/parBreadcrumb"
+        },
+        "header": {
+            "$ref": "/parBlogHeader"
+        },
+        "content": {
+            "$ref": "/dataRows",
+            "anyOfType": "parBlogGrid"
+        },
+        "footer": {
+            "$ref": "/parBlogFooter"
+        },
+        "cta": {
+            "$ref": "/parCtaForm"
+        }
+    }
+}

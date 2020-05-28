@@ -1,0 +1,39 @@
+{{#if slides.[0]}}
+    <section class="welcome-area">
+        <div class="{{#if slides.[1]}}welcome-slides owl-carousel{{/if}}">
+            {{#each slides}}
+                <div class="single-welcome-slide">
+                    <div class="background-curve">
+                        <img src="/_client/images/core-img/curve-1.png" alt="">
+                    </div>
+                    <div class="welcome-content h-100">
+                        <div class="container h-100">
+                            <div class="row h-100 align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <div class="welcome-text">
+                                        {{#if title}}
+                                            <h2 data-animation="fadeInUp" data-delay="100ms">{{{title}}}</h2>
+                                        {{/if}}
+                                        {{#if text}}
+                                            <h5 data-animation="fadeInUp" data-delay="400ms">{{{text}}}</h5>
+                                        {{/if}}
+                                        {{#if link.href}}
+                                            <a href="{{link.href}}" title="{{link.title}}" class="btn uza-btn btn-2" data-animation="fadeInUp" data-delay="700ms">{{link.label}}</a>
+                                        {{/if}}
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    {{#if image}}
+                                        <div class="welcome-thumbnail">
+                                            <img src="{{image.src}}" alt="{{image.alt}}" data-animation="slideInRight" data-delay="400ms">
+                                        </div>
+                                    {{/if}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </section>
+{{/if}}

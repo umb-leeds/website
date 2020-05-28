@@ -1,0 +1,27 @@
+<section class="uza-why-choose-us-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="choose-us-content mb-80">
+                    {{#if title}}
+                        {{{ modPartial 'parSectionHeading' title 'left-align' }}}
+                    {{/if}}
+                    <ul>
+                        {{#each reasons}}
+                            {{#if text}}
+                                <li><i class="fa fa-check" aria-hidden="true"></i> {{text}}</li>
+                            {{/if}}
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                {{#if image.src}}
+                    <div class="choose-us-thumbnail mb-80">
+                        <img class="w-100" src="{{image.src}}" alt="{{image.alt}}">
+                    </div>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,34 @@
+{
+    "id": "/parEvents",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "properties": {
+                    "date": {
+                        "$ref": "/dataDate"
+                    },
+                    "venue": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "summary": {
+                        "type": "string"
+                    },
+                    "link": {
+                        "$ref": "/dataLink"
+                    },
+                    "image": {
+                        "$ref": "/dataImage"
+                    }
+                }
+            }
+        }
+    },
+    "additionalProperties": false
+}

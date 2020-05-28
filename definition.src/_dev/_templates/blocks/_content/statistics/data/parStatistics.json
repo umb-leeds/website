@@ -1,0 +1,24 @@
+{
+    "stats": [
+        {
+            "value": 90,
+            "description": "PROJECTS COMPLETED",
+            "iconName": "piechart"
+        },
+        {
+            "value": 120,
+            "description": "Happy<br> clients",
+            "iconName": "heart_alt"
+        },
+        {
+            "value": 50,
+            "description": "Web<br> awards",
+            "iconName": "book_alt"
+        },
+        {
+            "value": 20,
+            "description": "our<br> experts",
+            "iconName": "profile"
+        }
+    ]
+}

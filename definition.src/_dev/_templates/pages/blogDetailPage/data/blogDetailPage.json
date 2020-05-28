@@ -1,0 +1,57 @@
+{
+    "breadcrumb": {
+        "title": "Blog Single",
+        "crumbs": [
+            {
+                "title": "",
+                "href": "#",
+                "label": "Home"
+            },
+            {
+                "title": "",
+                "href": "#",
+                "label": "Blog"
+            },
+            {
+                "title": "",
+                "href": "",
+                "label": "Amazon REV2018 Workshop: Road To Seattle"
+            }
+        ],
+        "_ref": "/parBreadcrumb"
+    },
+    "header": {
+        "$ref": "/parBlogHeader"
+    },
+    "content": {
+        "rows": [
+            {
+                "items": [
+                    {
+                        "$ref": "/parBlogImage"
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "$ref": "/parBlogRte"
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "$ref": "/parBlogQuote"
+                    }
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "$ref": "/parBlogFooter"
+    },
+    "cta": {
+        "$ref": "/parCtaForm"
+    }
+}

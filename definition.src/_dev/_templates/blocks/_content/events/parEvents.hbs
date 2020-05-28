@@ -1,0 +1,18 @@
+<section class="events section-padding-80">
+    <div class="container">
+        <div class="row">
+            {{#each items}}
+                <div class="col-12 col-lg-4">
+                    <div class="single-blog-post bg-img mb-80" style="background-image: url({{image.src}});">
+                        <div class="post-content">
+                            <span class="post-date"><span>{{date.day}}</span> {{date.monthYear}} @ <strong>{{venue}}</strong></span>
+                            <a href="{{link.href}}" title="{{link.title}}" class="post-title">{{title}}</a>
+                            <div class="events__summary">{{{summary}}}</div>
+                            <a href="{{link.href}}" title="{{link.title}}" class="read-more-btn">{{link.label}} <i class="arrow_carrot-2right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</section>

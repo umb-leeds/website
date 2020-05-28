@@ -1,0 +1,63 @@
+{
+    "id": "/parPortfolio",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "subTitle": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        },
+        "client": {
+            "type": "string"
+        },
+        "date": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        },
+        "author": {
+            "type": "string"
+        },
+        "image": {
+            "$ref": "/dataImage"
+        },
+        "socialLinks": {
+            "type": "array",
+            "items": {
+                "$ref": "/dataLink"
+            }
+        },
+        "navigation": {
+            "type": "object",
+            "properties": {
+                "previous": {
+                    "$ref": "/dataLink"
+                },
+                "back": {
+                    "$ref": "/dataLink"
+                },
+                "next": {
+                    "$ref": "/dataLink"
+                }
+            },
+            "additionalProperties": false
+        },
+        "_ref": {
+            "type": "string"
+        },
+        "_modifiers": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": false
+}

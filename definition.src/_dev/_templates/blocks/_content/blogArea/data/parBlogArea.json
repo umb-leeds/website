@@ -1,0 +1,12 @@
+{
+    "cta": {
+        "$ref": "/parCta"
+    },
+    "title": {
+        "title": "Our latest blogs",
+        "text": "Hit the button or give use a call!"
+    },
+    "blogs": {
+        "$ref": "/parBlogList"
+    }
+}

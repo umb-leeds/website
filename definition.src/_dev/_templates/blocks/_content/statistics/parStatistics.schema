@@ -1,0 +1,25 @@
+{
+    "id": "/parStatistics",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "stats": {
+            "type": "array",
+            "items": {
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "iconName": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    },
+    "additionalProperties": false
+}

@@ -1,0 +1,26 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@{
+    Layout = null;
+}
+@{ var template = Umbraco.ContentAtRoot().FirstOrDefault().Descendant<YuzuDelivery.UmbracoModels.Template>(); }
+<!doctype html>
+<html lang="en" data-frontend-environment="true">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/_client/styles/frontend.css">
+
+    <script type="text/javascript" src="/_client/js/scripts.js" defer></script>
+</head>
+<body>
+
+    @(Html.RenderYuzu(new RenderSettings() { Template = "parPreloader" }))
+    @(Html.RenderYuzu<vmBlock_SiteHeader>(template))
+    <div class="yuzu-content-root">
+        @RenderBody()
+    </div>
+    @(Html.RenderYuzu<vmBlock_SiteFooter>(template))
+
+</body>
+</html>
+

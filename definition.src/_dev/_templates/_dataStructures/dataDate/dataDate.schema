@@ -1,0 +1,15 @@
+{
+    "id": "/dataDate",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "day": {
+            "type": "string"
+        },
+        "monthYear": {
+            "type": "string"
+        }
+    }
+}

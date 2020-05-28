@@ -1,0 +1,41 @@
+{
+    "id": "/parContact",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "formIntro": {
+            "type": "string"
+        },
+        "form": {
+            "$ref": "/dataForm",
+            "anyOfType": "parFormBuilder"
+        },
+        "contactOptions": {
+            "type": "array",
+            "items": {
+                "properties": {
+                    "title": {
+                        "type": "string"
+                    },
+                    "telephone": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    },
+                    "openingTimes": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "mapHTML": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false
+}

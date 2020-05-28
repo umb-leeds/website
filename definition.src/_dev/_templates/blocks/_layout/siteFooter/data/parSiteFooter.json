@@ -1,0 +1,75 @@
+{
+    "sections": [
+        {
+            "title": "When and where",
+            "text": "<p>The first Thursday of every month, using a range of venues.</p><p>Please check meetup.com for details.</p>"
+        },
+        {
+            "title": "Quick Links",
+            "links": [
+                {
+                    "label": "Meetup page",
+                    "href": "https://www.meetup.com/umbLeeds/",
+                    "title": ""
+                },
+                {
+                    "label": "Code Of Conduct",
+                    "href": "#",
+                    "title": ""
+                },
+                {
+                    "label": "Join our Slack Channel",
+                    "href": "#",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "title": "External Links",
+            "links": [
+                {
+                    "label": "Umbraco",
+                    "href": "http://www.umbraco.com",
+                    "title": ""
+                },
+                {
+                    "label": "Umbraco Spark",
+                    "href": "http://www.umbracospark.com",
+                    "title": ""
+                },
+                {
+                    "label": "Codegarden",
+                    "href": "https://codegarden20.com/",
+                    "title": ""
+                },
+                {
+                    "label": "Codecabin",
+                    "href": "https://codecab.in/",
+                    "title": ""
+                }
+            ]
+        }
+    ],
+    "aboutSection": {
+        "title": "About Us",
+        "text": "Integer vehicula mauris libero, at molestie eros imperdiet sit amet.",
+        "copyrightNotice": "Copyright 2020 Umbraco Leeds",
+        "socialLinks": [
+            {
+                "label": "facebook",
+                "href": "https://www.facebook.com/umbleeds/",
+                "title": ""
+            },
+            {
+                "label": "twitter",
+                "href": "https://twitter.com/umbLeeds",
+                "title": ""
+            },
+            {
+                "label": "meetup",
+                "href": "https://www.meetup.com/umbLeeds/",
+                "title": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+<section class="uza-contact-area section-padding-80">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-8">
+                {{#if form}}
+                    <div class="uza-contact-form mb-80">
+                        {{#if formIntro}}
+                            <div class="contact-heading mb-50">
+                                <h4>{{{formIntro}}}</h4>
+                            </div>
+                        {{/if}}
+                        {{> parForm form }}
+                    </div>
+                {{/if}}
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="contact-sidebar-area mb-80">
+                    {{#each contactOptions}}
+                        <div class="single-contact-card mb-50">
+                            {{#if title}}
+                                <h4>{{title}}</h4>
+                            {{/if}}
+                            {{#if telephone}}
+                                <h3>{{telephone}}</h3>
+                            {{/if}}
+                            {{#if address}}
+                                <h6>{{address}}</h6>
+                            {{/if}}
+                            {{#if email}}
+                                <h6>{{email}}</h6>
+                            {{/if}}
+                            {{#if openingTimes}}
+                                <h6>{{{openingTimes}}}</h6>
+                            {{/if}}
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        {{#if mapHTML}}
+            <div class="row">
+                <div class="col-12">
+                    <div class="google-maps">
+                        {{{mapHTML}}}
+                    </div>
+                </div>
+            </div>
+        {{/if}}
+    </div>
+</section>

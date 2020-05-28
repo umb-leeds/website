@@ -1,0 +1,13 @@
+{
+    "refs": {
+        "/breadcrumb": [
+            "/parBreadcrumb"
+        ],
+        "/content": [
+            "/dataRows^parGrid"
+        ],
+        "/cta": [
+            "/parCtaForm"
+        ]
+    }
+}

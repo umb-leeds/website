@@ -1,0 +1,225 @@
+{
+    "title": {
+        "title": "Team of Experts",
+        "text": "We stay on top of our industry by being experts in yours."
+    },
+    "mode": "carousel",
+    "items": [
+        {
+            "subTitle": "Designer",
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/18.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        },
+        {
+            "subTitle": "Designer",
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/19.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        },
+        {
+            "subTitle": "Designer",
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/20.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        },
+        {
+            "subTitle": "Designer",
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/21.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        },
+        {
+            "subTitle": "Designer",
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/20.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        },
+        {
+            "subTitle": "Designer",
+            "title": "Roger Black",
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.",
+            "image": {
+                "src": "/_client/images/bg-img/19.jpg",
+                "alt": ""
+            },
+            "socialLinks": [
+                {
+                    "title": "Share on Facebook",
+                    "href": "#",
+                    "label": "facebook"
+                },
+                {
+                    "title": "Share on Twitter",
+                    "href": "#",
+                    "label": "twitter"
+                },
+                {
+                    "title": "Share on Pinterest",
+                    "href": "#",
+                    "label": "pinterest"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "instagram"
+                },
+                {
+                    "title": "",
+                    "href": "#",
+                    "label": "youtube-play"
+                }
+            ]
+        }
+    ]
+}
