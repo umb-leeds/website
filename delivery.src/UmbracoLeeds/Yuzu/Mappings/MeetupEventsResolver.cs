@@ -41,7 +41,7 @@ namespace UmbracoLeeds
                         Day = date.Day.ToString(),
                         MonthYear = string.Format("{0}, {1}", mfi.GetMonthName(date.Month), date.Year)
                     },
-                    Venue = obj.venue.name,
+                    Venue = "",
                     Title = obj.name,
                     Summary = GetFirstParagraph(obj.description.ToString()),
                     Link = new vmBlock_DataLink()
