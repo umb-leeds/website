@@ -87,14 +87,14 @@ a:hover { color: var(--umbraco-deep); }
 }
 
 .logo-mark {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.logo-mark img { width: 48px; height: auto; }
+.logo-mark img { width: 72px; height: auto; }
 
 .logo-link {
   display: flex;
@@ -265,6 +265,7 @@ a:hover { color: var(--umbraco-deep); }
   border: 2px solid var(--sandstone-dark);
   border-radius: 50%;
   opacity: 0.4;
+  pointer-events: none;
 }
 
 .page-hero::after {
@@ -277,6 +278,7 @@ a:hover { color: var(--umbraco-deep); }
   border: 2px solid var(--sandstone-dark);
   border-radius: 50%;
   opacity: 0.25;
+  pointer-events: none;
 }
 
 .page-hero-inner {
