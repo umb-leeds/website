@@ -130,25 +130,27 @@
         <a href="https://www.meetup.com/umbLeeds/" target="_blank" rel="noopener" class="btn btn-yellow">
           <svg width="16" height="16"><use href="#i-people"/></svg> Join on Meetup
         </a>
-        <a href="https://join.slack.com/t/umbleeds/shared_invite/enQtNDQ2MzcwMjYwOTY2LTMzODhlM2Q0YWY3MjEzZmU2OTFiNzBjYzI4NTBmZmQ0M2ZlMGVhZTE5MTI3NjViNjc5YWFkODExZDVkNDJmNTg" target="_blank" rel="noopener" class="btn btn-outline">
-          <svg width="16" height="16"><use href="#i-chat"/></svg> Join Slack
-        </a>
       </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 48" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,32 C360,48 720,0 1080,24 C1260,36 1380,40 1440,32 L1440,48 L0,48 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
   <div class="info-strip">
-    <div class="info-card">
+    <div class="info-card reveal">
       <div class="icon"><svg width="22" height="22"><use href="#i-cal"/></svg></div>
       <h3>First Thursday, Every Month</h3>
       <p>Same time, different place. We keep it regular so you can keep coming back.</p>
     </div>
-    <div class="info-card">
+    <div class="info-card reveal">
       <div class="icon"><svg width="22" height="22"><use href="#i-pin"/></svg></div>
       <h3>Leeds City Centre</h3>
       <p>Pubs, co-working spaces, offices &mdash; we mix it up. Check Meetup for this month's spot.</p>
     </div>
-    <div class="info-card">
+    <div class="info-card reveal">
       <div class="icon"><svg width="22" height="22"><use href="#i-people"/></svg></div>
       <h3>Everyone's Welcome</h3>
       <p>Brand new to Umbraco? Been using it for years? Doesn't matter &mdash; you'll fit right in.</p>
@@ -156,13 +158,13 @@
   </div>
 
   <section class="events">
-    <div class="section-head">
+    <div class="section-head reveal">
       <h2>Events</h2>
       <p>Here's what we've been up to (and what's coming next)</p>
     </div>
     <div class="events-grid">
 
-      <div class="event-card">
+      <div class="event-card reveal">
         <span class="badge badge-upcoming">Upcoming</span>
         <h3>UmbLeeds: AI Hackathon - Exploring AI Tools in Umbraco</h3>
         <div class="event-meta">
@@ -174,7 +176,7 @@
         <a href="https://www.meetup.com/umbleeds/events/313851920/" target="_blank" rel="noopener" class="event-link">View on Meetup <svg width="13" height="13"><use href="#i-arrow"/></svg></a>
       </div>
 
-      <div class="event-card past">
+      <div class="event-card past reveal">
         <span class="badge badge-past">Past</span>
         <h3>Luke Brown - A practical and emotional journey through the Umbraco MCP server</h3>
         <div class="event-meta">
@@ -186,7 +188,7 @@
         <a href="https://www.meetup.com/umbleeds/events/313432421/" target="_blank" rel="noopener" class="event-link">View on Meetup <svg width="13" height="13"><use href="#i-arrow"/></svg></a>
       </div>
 
-      <div class="event-card past">
+      <div class="event-card past reveal">
         <span class="badge badge-past">Past</span>
         <h3>Lightning Talks: Agentic Development &amp; Backoffice Validation</h3>
         <div class="event-meta">
@@ -198,7 +200,7 @@
         <a href="https://www.meetup.com/umbleeds/events/312973119/" target="_blank" rel="noopener" class="event-link">View on Meetup <svg width="13" height="13"><use href="#i-arrow"/></svg></a>
       </div>
 
-      <div class="event-card past">
+      <div class="event-card past reveal">
         <span class="badge badge-past">Past</span>
         <h3>2026 Roundtable: Review for the year ahead</h3>
         <div class="event-meta">
@@ -225,7 +227,6 @@
         <ul>
           <li><a href="https://www.meetup.com/umbLeeds/" target="_blank" rel="noopener">Meetup page</a></li>
           <li><a href="/code-of-conduct/">Code of Conduct</a></li>
-          <li><a href="https://join.slack.com/t/umbleeds/shared_invite/enQtNDQ2MzcwMjYwOTY2LTMzODhlM2Q0YWY3MjEzZmU2OTFiNzBjYzI4NTBmZmQ0M2ZlMGVhZTE5MTI3NjViNjc5YWFkODExZDVkNDJmNTg" target="_blank" rel="noopener">Join Slack</a></li>
         </ul>
       </div>
       <div>
@@ -258,5 +259,11 @@
     </div>
   </footer>
 
+  <script>
+    var io = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(function(el) { io.observe(el); });
+  </script>
 </body>
 </html>
