@@ -265,19 +265,28 @@
     /* Partner logos */
     .sponsors { position: relative; z-index: 1; }
     .partner-logos {
-      display: flex; flex-wrap: wrap; align-items: center;
-      gap: 1.25rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.6rem;
     }
     .partner-logo {
-      display: flex; align-items: center; justify-content: center;
-      opacity: 0.4; filter: grayscale(1);
+      display: flex; align-items: center; gap: 0.5rem;
+      padding: 0.5rem 0.6rem;
+      text-decoration: none;
+      opacity: 0.45; filter: grayscale(1);
       transition: opacity 0.3s ease, filter 0.3s ease;
     }
-    .partner-logo:hover { opacity: 0.85; filter: grayscale(0); }
+    .partner-logo:hover { opacity: 0.9; filter: grayscale(0); }
     .partner-logo img {
-      max-height: 28px; max-width: 90px;
+      max-height: 22px; max-width: 22px;
       width: auto; height: auto;
-      object-fit: contain;
+      object-fit: contain; flex-shrink: 0;
+    }
+    .partner-logo span {
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.62rem; font-weight: 500;
+      letter-spacing: 0.04em; text-transform: uppercase;
+      color: var(--warm-gray); white-space: nowrap;
     }
 
     /* Responsive */
@@ -287,6 +296,10 @@
       .panel-right { border-top: 1px solid var(--sandstone-dark); }
       .hero-title { font-size: 2rem; }
       .organisers { grid-template-columns: 1fr; }
+      .partner-logos { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+      .partner-logo { padding: 0.65rem 0.75rem; opacity: 0.55; background: var(--sandstone-light); }
+      .partner-logo img { max-height: 28px; max-width: 28px; }
+      .partner-logo span { font-size: 0.7rem; }
     }
   </style>
 </head>
@@ -482,20 +495,29 @@
     <div class="sponsors">
       <div class="section-label">Supported By</div>
       <div class="partner-logos">
-        <a href="https://msqdx.com" target="_blank" rel="noopener" class="partner-logo" title="MSQ DX">
+        <a href="https://umbraco.com" target="_blank" rel="noopener" class="partner-logo">
+          <img src="/images/partners/umbraco.webp" alt="Umbraco" loading="lazy">
+          <span>Umbraco</span>
+        </a>
+        <a href="https://msqdx.com" target="_blank" rel="noopener" class="partner-logo">
           <img src="/images/partners/msqdx.svg" alt="MSQ DX" loading="lazy">
+          <span>MSQ DX</span>
         </a>
-        <a href="https://www.enjoy-digital.co.uk" target="_blank" rel="noopener" class="partner-logo" title="Enjoy Digital">
+        <a href="https://www.enjoy-digital.co.uk" target="_blank" rel="noopener" class="partner-logo">
           <img src="/images/partners/enjoy-digital.svg" alt="Enjoy Digital" loading="lazy">
+          <span>Enjoy Digital</span>
         </a>
-        <a href="https://www.pixelbuilders.com" target="_blank" rel="noopener" class="partner-logo" title="Pixelbuilders">
+        <a href="https://www.pixelbuilders.com" target="_blank" rel="noopener" class="partner-logo">
           <img src="/images/partners/pixelbuilders.svg" alt="Pixelbuilders" loading="lazy">
+          <span>Pixelbuilders</span>
         </a>
-        <a href="https://moriyama.co.uk" target="_blank" rel="noopener" class="partner-logo" title="Moriyama">
+        <a href="https://moriyama.co.uk" target="_blank" rel="noopener" class="partner-logo">
           <img src="/images/partners/moriyama.png" alt="Moriyama" loading="lazy">
+          <span>Moriyama</span>
         </a>
-        <a href="https://www.umbracofoundation.co.uk" target="_blank" rel="noopener" class="partner-logo" title="UK Umbraco Foundation">
+        <a href="https://www.umbracofoundation.co.uk" target="_blank" rel="noopener" class="partner-logo">
           <img src="/images/partners/umbraco-foundation.png" alt="UK Umbraco Foundation" loading="lazy">
+          <span>UK Umbraco Foundation</span>
         </a>
       </div>
     </div>
