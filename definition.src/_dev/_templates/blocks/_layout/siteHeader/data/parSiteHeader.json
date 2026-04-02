@@ -1,9 +1,0 @@
-{
-    "logo": {
-        "src": "/_client/images/umb-leeds/Umbraco_Leeds_Logo_Blue.svg",
-        "alt": ""
-    },
-    "nav": {
-        "$ref": "/parSiteNav"
-    }
-}
