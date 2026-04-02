@@ -339,6 +339,80 @@ a:hover { color: var(--yellow-dark); }
   color: rgba(255, 255, 255, .4);
 }
 
+/* === Gallery === */
+.gallery-hero {
+  background: var(--blue);
+  color: var(--white);
+  padding: 3.5rem 1.5rem 3rem;
+  text-align: center;
+}
+.gallery-hero-inner { max-width: 600px; margin: 0 auto; }
+.gallery-hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: .5rem; }
+.gallery-hero p { font-size: 1.05rem; opacity: .9; }
+
+.gallery-content {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.gallery-item {
+  background: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .06);
+  transition: transform .15s, box-shadow .15s;
+}
+.gallery-item:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 0, 0, .1); }
+
+.gallery-item--wide { grid-column: 1 / -1; }
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.gallery-item--wide img { max-height: 400px; }
+.gallery-item:not(.gallery-item--wide) img { aspect-ratio: 16 / 9; }
+
+.gallery-item figcaption {
+  padding: 1rem 1.25rem 1.25rem;
+}
+.gallery-item figcaption strong {
+  display: block;
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--blue);
+  margin-bottom: .25rem;
+}
+.gallery-item figcaption span {
+  font-size: .85rem;
+  color: var(--grey);
+  line-height: 1.5;
+}
+
+.gallery-cta {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding: 2rem;
+  background: var(--grey-light);
+  border-radius: 10px;
+}
+.gallery-cta h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: .35rem;
+}
+.gallery-cta p { font-size: .9rem; color: var(--grey); }
+
 /* === About page === */
 .about-hero {
   background: var(--blue);
@@ -520,6 +594,7 @@ a:hover { color: var(--yellow-dark); }
   .benefits-grid { grid-template-columns: 1fr; }
   .info-strip { grid-template-columns: 1fr; margin-top: -1.5rem; }
   .events-grid { grid-template-columns: 1fr; }
+  .gallery-grid { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: repeat(2, 1fr); }
 }
 
