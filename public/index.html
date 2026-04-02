@@ -323,65 +323,92 @@
 
     <div class="meetup-card">
       <div class="meetup-label">Upcoming Meetups</div>
-      <div class="meetup-carousel">
+      <div class="meetup-carousel" id="meetup-carousel">
         <div class="meetup-slide active">
-          <div class="meetup-title">AI Hackathon &mdash; Exploring AI Tools in Umbraco</div>
-          <div class="meetup-details">
-            <svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg>
-            Thursday 2 April 2026 &middot; 6:30 PM
-            <br>
-            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-            MSQ DX &middot; 28 Sovereign Street, Leeds
-          </div>
-        </div>
-        <div class="meetup-slide">
-          <div class="meetup-title">Umbraco 17 Deep Dive &mdash; What's New &amp; What's Next</div>
-          <div class="meetup-details">
-            <svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg>
-            Thursday 7 May 2026 &middot; 6:30 PM
-            <br>
-            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-            MSQ DX &middot; 28 Sovereign Street, Leeds
-          </div>
-        </div>
-        <div class="meetup-slide">
-          <div class="meetup-title">Show &amp; Tell &mdash; Community Project Showcase Night</div>
-          <div class="meetup-details">
-            <svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg>
-            Thursday 4 June 2026 &middot; 6:30 PM
-            <br>
-            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-            MSQ DX &middot; 28 Sovereign Street, Leeds
-          </div>
+          <div class="meetup-title" style="color:var(--warm-gray);font-weight:400;font-size:0.9rem">Loading events from Meetup...</div>
         </div>
       </div>
-      <div class="meetup-dots">
-        <span class="dot active"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
-
+      <div class="meetup-dots" id="meetup-dots"></div>
       <div class="cta-row">
         <a href="https://www.meetup.com/umbleeds/" target="_blank" rel="noopener" class="btn btn-primary">
           Join UmbLeeds
           <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
         </a>
-        <a href="https://www.meetup.com/umbleeds/events/313851920/" target="_blank" rel="noopener" class="btn btn-outline">RSVP for Next Event</a>
+        <a href="" target="_blank" rel="noopener" class="btn btn-outline" id="rsvp-btn" style="display:none">RSVP for Next Event</a>
       </div>
     </div>
 
     <script>
     (function() {
-      var slides = document.querySelectorAll('.meetup-slide');
-      var dots = document.querySelectorAll('.meetup-dots .dot');
-      var current = 0;
-      setInterval(function() {
-        slides[current].classList.remove('active');
-        dots[current].classList.remove('active');
-        current = (current + 1) % slides.length;
-        slides[current].classList.add('active');
-        dots[current].classList.add('active');
-      }, 5000);
+      var calIcon = '<svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg>';
+      var pinIcon = '<svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>';
+      var carousel = document.getElementById('meetup-carousel');
+      var dotsEl = document.getElementById('meetup-dots');
+      var rsvpBtn = document.getElementById('rsvp-btn');
+
+      function renderEvents(events) {
+        if (!events.length) {
+          carousel.innerHTML = '<div class="meetup-slide active"><div class="meetup-title" style="color:var(--warm-gray);font-weight:400;font-size:0.9rem">No upcoming events right now. Check back soon!</div></div>';
+          return;
+        }
+        carousel.innerHTML = '';
+        dotsEl.innerHTML = '';
+        events.forEach(function(ev, i) {
+          var slide = document.createElement('div');
+          slide.className = 'meetup-slide' + (i === 0 ? ' active' : '');
+          var venue = ev.venue;
+          if (ev.address) venue += ' \u00B7 ' + ev.address + ', ' + ev.city;
+          else if (ev.city) venue += ', ' + ev.city;
+          slide.innerHTML = '<div class="meetup-title">' + ev.title + '</div>'
+            + '<div class="meetup-details">'
+            + calIcon + ' ' + ev.date + ' \u00B7 ' + ev.time
+            + '<br>' + pinIcon + ' ' + venue
+            + '</div>';
+          carousel.appendChild(slide);
+
+          var dot = document.createElement('span');
+          dot.className = 'dot' + (i === 0 ? ' active' : '');
+          dotsEl.appendChild(dot);
+        });
+
+        // Show RSVP button linking to first upcoming event
+        if (events[0].url) {
+          rsvpBtn.href = events[0].url;
+          rsvpBtn.style.display = '';
+        }
+
+        // Carousel rotation
+        if (events.length > 1) {
+          var slides = carousel.querySelectorAll('.meetup-slide');
+          var dots = dotsEl.querySelectorAll('.dot');
+          var current = 0;
+          setInterval(function() {
+            slides[current].classList.remove('active');
+            dots[current].classList.remove('active');
+            current = (current + 1) % slides.length;
+            slides[current].classList.add('active');
+            dots[current].classList.add('active');
+            // Update RSVP link to current event
+            if (events[current].url) {
+              rsvpBtn.href = events[current].url;
+            }
+          }, 5000);
+        }
+      }
+
+      fetch('/api/meetups')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var events = data.upcoming.length ? data.upcoming : data.past.slice(0, 3);
+          var label = document.querySelector('.meetup-label');
+          if (!data.upcoming.length && data.past.length) {
+            label.textContent = 'Recent Meetups';
+          }
+          renderEvents(events);
+        })
+        .catch(function() {
+          carousel.innerHTML = '<div class="meetup-slide active"><div class="meetup-title" style="color:var(--warm-gray);font-weight:400;font-size:0.9rem">Could not load events. <a href="https://www.meetup.com/umbleeds/" target="_blank" rel="noopener">View on Meetup</a></div></div>';
+        });
     })();
     </script>
   </main>
