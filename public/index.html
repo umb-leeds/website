@@ -262,17 +262,23 @@
     .years-text { font-size: 0.82rem; line-height: 1.5; opacity: 0.85; }
     .years-text strong { display: block; font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 0.85rem; letter-spacing: 0.04em; text-transform: uppercase; opacity: 1; }
 
-    /* Sponsors */
+    /* Partner logos */
     .sponsors { position: relative; z-index: 1; }
-    .sponsor-list { display: flex; flex-wrap: wrap; gap: 0.35rem; }
-    .sponsor-tag {
-      font-family: 'Oswald', sans-serif; font-size: 0.68rem; font-weight: 500;
-      letter-spacing: 0.06em; text-transform: uppercase;
-      padding: 0.3rem 0.65rem; background: white;
-      border: 1px solid var(--sandstone-dark); color: var(--warm-gray);
-      transition: all 0.2s ease;
+    .partner-logos {
+      display: flex; flex-wrap: wrap; align-items: center;
+      gap: 1.25rem;
     }
-    .sponsor-tag:hover { border-color: var(--umbraco-blue); color: var(--umbraco-blue); }
+    .partner-logo {
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0.4; filter: grayscale(1);
+      transition: opacity 0.3s ease, filter 0.3s ease;
+    }
+    .partner-logo:hover { opacity: 0.85; filter: grayscale(0); }
+    .partner-logo img {
+      max-height: 28px; max-width: 90px;
+      width: auto; height: auto;
+      object-fit: contain;
+    }
 
     /* Responsive */
     @media (max-width: 900px) {
@@ -475,12 +481,22 @@
 
     <div class="sponsors">
       <div class="section-label">Supported By</div>
-      <div class="sponsor-list">
-        <span class="sponsor-tag">MSQ DX</span>
-        <span class="sponsor-tag">Enjoy Digital</span>
-        <span class="sponsor-tag">Pixelbuilders</span>
-        <span class="sponsor-tag">Moriyama</span>
-        <span class="sponsor-tag">UK Umbraco Foundation</span>
+      <div class="partner-logos">
+        <a href="https://msqdx.com" target="_blank" rel="noopener" class="partner-logo" title="MSQ DX">
+          <img src="/images/partners/msqdx.svg" alt="MSQ DX" loading="lazy">
+        </a>
+        <a href="https://www.enjoy-digital.co.uk" target="_blank" rel="noopener" class="partner-logo" title="Enjoy Digital">
+          <img src="/images/partners/enjoy-digital.svg" alt="Enjoy Digital" loading="lazy">
+        </a>
+        <a href="https://www.pixelbuilders.com" target="_blank" rel="noopener" class="partner-logo" title="Pixelbuilders">
+          <img src="/images/partners/pixelbuilders.svg" alt="Pixelbuilders" loading="lazy">
+        </a>
+        <a href="https://moriyama.co.uk" target="_blank" rel="noopener" class="partner-logo" title="Moriyama">
+          <img src="/images/partners/moriyama.png" alt="Moriyama" loading="lazy">
+        </a>
+        <a href="https://www.umbracofoundation.co.uk" target="_blank" rel="noopener" class="partner-logo" title="UK Umbraco Foundation">
+          <img src="/images/partners/umbraco-foundation.png" alt="UK Umbraco Foundation" loading="lazy">
+        </a>
       </div>
     </div>
 
@@ -488,7 +504,7 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div>Made with <span class="heart">&#9829;</span> in Leeds &middot; Powered by <a href="https://umbraco.com" target="_blank" rel="noopener">Umbraco</a>, the friendly CMS</div>
+    <div>Made with <span class="heart">&#9829;</span> in Leeds</div>
     <div class="footer-links">
       <a href="https://www.meetup.com/umbleeds/" target="_blank" rel="noopener">Meetup</a>
       <a href="https://twitter.com/umbleeds" target="_blank" rel="noopener">X / Twitter</a>
