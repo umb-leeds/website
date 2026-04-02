@@ -121,11 +121,13 @@
 
   <header class="header">
     <div class="logo-group">
-      <a href="/" style="display:flex;align-items:center;gap:1rem;text-decoration:none">
+      <a href="/" class="logo-link">
         <div class="logo-mark"><img src="/logo.svg" alt="Umbraco Leeds"></div>
-        <div class="logo-text">Umb<span>Leeds</span></div>
       </a>
     </div>
+    <button class="mobile-toggle" aria-label="Menu" onclick="document.querySelector('.header-nav').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
     <nav class="header-nav">
       <a href="/about/" class="active">About</a>
       <a href="/gallery/">Gallery</a>
